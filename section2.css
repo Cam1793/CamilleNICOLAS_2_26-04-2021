@@ -151,6 +151,7 @@ a .longchampsimg:hover{
     border-top-right-radius: 10px;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
+    padding-top: 0px;
     width: 300px;
 
 }
@@ -172,7 +173,6 @@ a .longchampsimg:hover{
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
     width: 300px;
-
 }
 /*frioul*/
 
