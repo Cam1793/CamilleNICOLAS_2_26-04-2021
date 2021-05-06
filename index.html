@@ -4,22 +4,83 @@
             <html lang="fr">
 		    <title>Reservia</title>
             <meta charset="utf-8">
-<<<<<<< HEAD
-  	    	<link rel="stylesheet" type="text/css" href="header.css">
-            <script src="https://kit.fontawesome.com/fbe62a62bd.js" crossorigin="anonymous"></script>
-            <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
-            <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0"/>
-        </head>
-
-        <body>
-
-=======
+            <link rel="stylesheet" type="text/css" href="css/main.css">
+            <link rel="stylesheet" type="text/css" href="css/header.css">
             <link rel="stylesheet" type="text/css" href="css/section2.css">
             <script src="https://kit.fontawesome.com/fbe62a62bd.js" crossorigin="anonymous"></script>
             <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
         </head>
 
         <body>
+            <div id="container">
+                <header>
+
+                    <!--Navigateur-->
+                    <nav>
+                        <ul>
+                            <hr>
+                                <li><a id="asurvol" href="#Hébergement">Hébergement</a></li>
+                                <li><a id="asurvol" href="#Activités">Activités</a></li>
+                                <li><a id="asurvol" href="#">S'inscrire</a></li>
+                            </hr>
+                        </ul>
+                    </nav>  
+                    
+                            <!--Logo-->
+                                <img src="logo/Reservia.svg" alt="Logo de l'agence" title="Reservia">
+
+                                    <!--Introduction-->
+                                        <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
+                                        <h5>En plein centre de ville ou en pleine nature</h5>
+
+                                            <!--Barre de recherche-->
+                                                <div class="barre">
+                                                    <i class="fas fa-map-marker-alt" id="icone"></i>
+                                                    <input type="search" id="search" placeholder="Marseille, France" ></input>
+                                                    <input type="button" id="button" value="Rechercher"></input>
+                                                </div>
+
+                                <!--Filtre-->
+                                <div class="filtre">                
+                    
+                                        <div class="titrefiltre">
+                                            <h3>Filtres</h3>
+                                        </div> 
+
+                                            <a href="#">
+                                                <div class="a economique">
+                                                    <i id="money"class="fas fa-money-bill-wave"></i><p>Economique</p>
+                                                </div>
+                                            </a>
+
+                                                <a href="#">
+                                                    <div class="a familial" >
+                                                        <i id="child"class="fas fa-child"></i><p>Familial</p>
+                                                    </div>
+                                                </a>
+
+                                                        <a href="#">
+                                                            <div class="a romantique" > 
+                                                                <i id="heart" class="fas fa-heart"></i><p>Romantique</p>
+                                                            </div>
+                                                        </a>
+                            
+                                                            <a href="#">
+                                                                <div class="a animaux"> 
+                                                                    <i id="dog"class="fas fa-dog"></i><p>Animaux autorisés</p>
+                                                                </div>
+                                                            </a>
+                                </div>
+
+                        <div class="info">
+                            <div class="pointinfo"><i class="fas fa-info"></i></div>
+                            <div class="texteinfo"><p><NOBR>Plus de 500 logements sont disponibles dans cette ville</NOBR></p></div>
+                        </div>
+                </header>
+
+            </div>
+
+
             <section class="container2">
 
                 <!--Titre-->
@@ -97,7 +158,6 @@
                 <!--Activités à Marseille-->
                 
             </section>
->>>>>>> feature/add_section2
 
         </body>
     </html>
