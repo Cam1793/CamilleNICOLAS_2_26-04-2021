@@ -1,0 +1,235 @@
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+    height: 575px;
+    margin: 50px;
+    margin-left: 100px;
+    position: relative;
+}
+
+body{
+    font-family: Raleway, Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.Activités{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.titreprincipaleactivité{
+    font-weight: bold;
+    height: 0px;
+    position: relative;
+    margin-left: 40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+
+/*article21* sous article*/
+.article21{
+    align-self: flex-end;
+    margin-left: -280px;
+    margin-top: 10px;
+    
+}
+/*article21 sous article*/
+
+
+/*article22* sous article*/
+.article22{
+    align-self: flex-end;
+}
+/*article22* sous article*/
+
+
+
+/*article23* sous article*/
+.article23{
+    align-self: flex-end;
+    padding-right: 0px;
+}
+/*article23* sous article*/
+
+
+
+/*article24 sous article*/
+.article24{
+    align-self: flex-end;
+}
+/*article24 sous article*/
+
+
+
+
+/*a hover*/
+
+a{
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 15px;
+    color: black;
+    
+}
+a .vieuxportimg:hover{
+    transform: scale(1.03);
+    transition: transform 100ms ease-in-out;
+}
+
+a .pomeguèsimg:hover{
+    transform: scale(1.03);
+    transition: transform 100ms ease-in-out;
+}
+
+a .frioulimg:hover{
+    transform: scale(1.03);
+    transition: transform 100ms ease-in-out;
+}
+
+a .calanquesimg:hover{
+    transform: scale(1.03);
+    transition: transform 100ms ease-in-out;
+}
+
+a .gardesimg:hover{
+    transform: scale(1.03);
+    transition: transform 100ms ease-in-out;
+}
+
+a .longchampsimg:hover{
+    transform: scale(1.03);
+    transition: transform 100ms ease-in-out;
+}
+/*a hover*/
+
+/*titre activité*/
+.nom{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding-left: 10px;
+    font-weight: bold;
+    font-size: 17px;
+
+}
+/*titre activité*/
+
+
+/*vieux port*/
+.vieuxportimg{
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 50px gainsboro;
+    padding-bottom: 10px;
+    margin-right: -10px;
+
+}
+.vieuxportimage{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    width: 300px;
+}
+/*vieux port*/
+
+/*pomegues*/
+.pomeguèsimg{
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 4px 4px 50px gainsboro;
+    padding-bottom: 10px;
+    margin-right: -10px;
+
+}
+
+.pomeguèsimage{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    padding-top: 0px;
+    width: 300px;
+
+}
+/*pomegues*/
+
+/*frioul*/
+.frioulimg{
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 4px 4px 50px gainsboro;
+    padding-bottom: 10px;
+    margin-right: -10px;
+
+}
+
+.frioulimage{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    width: 300px;
+}
+/*frioul*/
+
+/*calanques*/
+.calanquesimg{
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 4px 4px 50px gainsboro;
+    padding-bottom: 10px;
+    margin-right: -10px;
+
+}
+
+.calanquesimage{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    width: 300px;
+    height: 442px;
+}
+/*calanques*/
+
+/*gardes*/
+.gardesimg{
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 4px 4px 50px gainsboro;
+    padding-bottom: 10px;
+    margin-right: -10px;
+
+}
+
+.gardesimage{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    width: 300px;
+    height: 195px;
+}
+/*gardes*/
+
+/*longchamps*/
+.longchampsimg{
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 4px 4px 50px gainsboro;
+    padding-bottom: 10px;
+
+}
+
+.longchampsimage{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    width: 300px;
+}
+/*longchamps*/
