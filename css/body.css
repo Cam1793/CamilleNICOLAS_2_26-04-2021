@@ -1,16 +1,22 @@
 body{
-    font-family: Raleway, Arial, Helvetica, sans-serif;
-    max-width: 1440px;
-    width: 100%;
-    max-height: 1884px;
-    display: flex;
-    flex-wrap: wrap;
+    font-family: Raleway, sans-serif;
     justify-content: center;
-    position: relative;
-    max-zoom: 125%;
+    display: flex;
+    zoom: 110%;
+    margin: 0px;
 }
+
 
 #main-container{
     display: flex;
     flex-direction: column;
+    margin-left: 20em;
+    margin-right: -100px;
+    margin-top: 10px;
+    padding-right: 0px;
+}
+
+html{
+    padding: 0;
+    margin: 0;
 }

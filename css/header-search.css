@@ -29,11 +29,12 @@ header{
     background-color: #F2F2F2;
     border-radius: 10px;
     padding-bottom: 0px;
-    padding-top: 0px;
+    padding-top: -2px;
     width: 280px;
     max-height: 38px;
     margin-left: 0px;
     margin-bottom: 30px;
+    margin-top: 10px;
 }
 
 #button{
