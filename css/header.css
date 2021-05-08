@@ -1,7 +1,6 @@
 #header{
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 #header-nav{
@@ -22,7 +21,7 @@ nav ul{
     flex-direction: row;
     justify-content: flex-end;
     margin-top: 29px;
-    margin-left: 800px;
+    margin-left: 600px;
 }
 
 nav li{
