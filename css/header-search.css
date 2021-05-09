@@ -1,5 +1,8 @@
 /*Header-search*/
-
+#header-info{
+    width: 980px;
+    margin-bottom: -200px;
+}
 h2{
     font-size: 20px;
 }
@@ -8,18 +11,6 @@ h5{
     font-weight: normal;
     margin-top: -10px;
     margin-bottom: 10px;
-}
-
-header{
-    display: inline;
-    position: relative;
-    justify-content: space-between;
-    padding-left: 0px;
-    padding-right: 0px;
-}
-
-#header-info{
-    width: 900px;
 }
 
 .titre-filtre{
@@ -99,15 +90,9 @@ header{
     justify-content: space-evenly;
     justify-content: center;
     background-color: transparent;
-    border-radius: 20px;
-    max-width: 1500px;
+    width: 900px;
     height: 50px;
-    margin-right: 0px;
     margin-top: 10px;
-    padding-left: 0px;
-    padding-right: 0px;
-    padding-top: 0px; 
- 
 }
 
 .economique{

@@ -2,16 +2,16 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    width: 980px; 
 }
 
 #header-nav{
     display: flex;
-    margin: 0px;
+    width: 980px;
 }
 
 /*Navigator */
 nav{
-    padding-left: 0px;
     max-block-size: 10px;
     margin-top: -29px;
     padding-right: -100px;
