@@ -8,6 +8,7 @@
     padding-right: 0px;
     margin-left: 0px;
     margin-top: 20px;
+    margin-bottom: 0px;
     background-color: #f2f2f2;
     border-radius: 20px;
 }
@@ -29,7 +30,6 @@
     margin-bottom: 0px;
     font-size: 20px;
 }
-
 
 #iconepopulaires{
     padding-top: 20px;
@@ -63,7 +63,7 @@ a .blancimg:hover{
 
 /*matin*/
 .matinimg{
-    width: 280px;
+    width: 275px;
     border-radius: 20px;
     box-shadow: 4px 4px 50px gainsboro;
     padding-top: 5px;
@@ -89,7 +89,7 @@ a .blancimg:hover{
 
 /*eau*/
 .eauimg{
-    width: 280px;
+    width: 275px;
     border-radius: 20px;
     box-shadow: 4px 4px 50px gainsboro;
     padding-top: 5px;
@@ -173,7 +173,7 @@ a .blancimg:hover{
 .star-1{
     color: #0065fc;
     font-size: 12px;
-    margin-top: 35px;
+    margin-top: 40px;
     
 }
 
