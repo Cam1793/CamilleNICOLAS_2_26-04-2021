@@ -18,6 +18,17 @@ header{
     padding-right: 0px;
 }
 
+#header-info{
+    width: 900px;
+}
+
+.titre-filtre{
+    margin-left: 0px;
+    margin-right: 50px;
+    margin-top: -10px;
+    padding-top: 0px;
+}
+
 /*Barre de recherche*/
 .barre{
     display: flex;
@@ -33,7 +44,7 @@ header{
     width: 280px;
     max-height: 38px;
     margin-left: 0px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     margin-top: 10px;
 }
 
@@ -89,20 +100,14 @@ header{
     justify-content: center;
     background-color: transparent;
     border-radius: 20px;
-    max-width: 1000px;
-    max-height: 55px;
+    max-width: 1500px;
+    height: 50px;
+    margin-right: 0px;
+    margin-top: 10px;
     padding-left: 0px;
-    padding-right: 10px;
-    padding-top: 5px;  
-}
-
-.titrefiltre{
-    padding-left: 0px;
-    padding-right: -300px;
-    font-size: 13px;
-    margin-right: 40px;
-    margin-left: -300px;
-    margin-top: 15px ; 
+    padding-right: 0px;
+    padding-top: 0px; 
+ 
 }
 
 .economique{
@@ -117,12 +122,12 @@ header{
     padding-top: 0px;
     padding-left: 0px;
     padding-right: 10px;
-    width: 110px;
-    max-height: 30px;
+    width: 140px;
+    max-height: 35px;
     margin-bottom: 0px;
     margin-left: 0px;
-    margin-right: 80px;
-    font-size: 11px;
+    margin-right: 40px;
+    font-size: 15px;
 }
 
 #money{
@@ -141,18 +146,19 @@ header{
     position: relative;
     justify-content: flex-start;
     align-items: center;
-    border: solid 2px #F2F2F2;
+    border: solid 2px;
+    border-color: #F2F2F2;
     border-radius: 20px;
     padding-bottom: 0px;
     padding-top: 0px;
     padding-left: 0px;
-    padding-right: -50px;
-    width: 90px;
-    max-height: 30px;
+    padding-right: 10px;
+    width: 100px;
+    max-height: 35px;
     margin-bottom: 0px;
-    margin-left: -60px;
-    margin-right: 50px;
-    font-size: 11px;
+    margin-left: 0px;
+    margin-right: 40px;
+    font-size: 16px;
 }
 
 #child{
@@ -162,7 +168,7 @@ header{
     padding: 10px;
     align-items: center;
     border-radius: 100px;
-    margin-left: -1px;
+    margin-left: -5px;
     margin-right: 5px;
 }
 
@@ -177,13 +183,13 @@ header{
     padding-bottom: 0px;
     padding-top: 0px;
     padding-left: 0px;
-    padding-right: -10px;
-    width: 110px;
-    max-height: 30px;
+    padding-right: 10px;
+    width: 140px;
+    max-height: 35px;
     margin-bottom: 0px;
-    margin-left: -20px;
-    margin-right: 10px;
-    font-size: 11px;         
+    margin-left: 0px;
+    margin-right: 40px;
+    font-size: 16px;       
 }
 
 
@@ -209,13 +215,13 @@ header{
     padding-bottom: 0px;
     padding-top: 0px;
     padding-left: 0px;
-    padding-right: -20px;
-    width: 140px;
-    max-height: 30px;
+    padding-right: 10px;
+    width: 190px;
+    max-height: 35px;
     margin-bottom: 0px;
-    margin-left: 20px;
-    margin-right: 0px;
-    font-size: 11px;
+    margin-left: 0px;
+    margin-right: 40px;
+    font-size: 16px;
 }
 
 #dog{
@@ -281,7 +287,7 @@ a .animaux:hover{
     width: 100px;
     max-height: 30px;
     margin-left: 5px;
-    margin-top: 20px;
+    margin-top: 5px;
     font-size: 11px;
 }
 
