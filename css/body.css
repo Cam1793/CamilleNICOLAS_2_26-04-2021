@@ -1,13 +1,12 @@
 body{
     font-family: Raleway, sans-serif;
-    justify-content: space-evenly;
 }
 
-#main-container{
+#root{
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
-    margin-left: 500px;
-    margin-top: 10px;
-    padding-right: 0px;
+    width: 100%;
+    margin: 0;
 }

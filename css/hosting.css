@@ -1,5 +1,5 @@
 #hosting{
-    margin-top: 20px;
+    /*margin-top: 20px;
     margin-left: -20px;
     margin-right: 10px;
     margin-bottom: 0px;
@@ -7,35 +7,48 @@
     height: 230px;
     padding-bottom: 200px;
     padding-left: 0px;
-    position: relative;
+    position: relative;*/
     background-color: #f2f2f2;
-    background-size: contain;
     border-radius: 20px;
+    /*margin-right: 10px;*/
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 620px;
+    margin-right: 30px;
 }
+
 
 .titreprincipalehébergement{
     font-weight: bold;
-    height: 0px;
     position: relative;
-    margin: 50px;
+    /*margin: 50px;
     margin-left: 20px;
     margin-top: 0px;
-    padding-top: 5px;
+    padding-top: 5px;*/
     font-size: 20px;
+    margin: 10px;
+    padding-bottom: 0px;
+    height: 30px;
+
 }
 
 .framing{
     display: flex;
-    align-content: flex-start;
-    justify-content: center;
     flex-wrap: wrap;
-    max-width: 800px;
-    margin: 30px;
-    margin-left: 10px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    padding-left: 10px;
+    max-width: 650px;
+    margin: 10px;
+    margin-top: 0px;
+   /*margin: 0px;
+    padding: 0px;*/
+    
 }
+
+.affichez-plus{
+    display: flex;
+    position: relative;
+    margin: 10px;
+}
+
 
 /*a hover*/
 a{
@@ -79,11 +92,10 @@ a .aminaimg:hover{
 /*Hôtel la cannebière*/
 .cannebièreimg{
     display: inline-block;
-    margin: 10px;
-    margin-left: -30px;
     border-radius: 20px;
     width: 180px;
     height: 150px;
+    margin: 10px;
     background-color: white;
     box-shadow: 4px 4px 50px gainsboro;
     
@@ -107,10 +119,10 @@ a .aminaimg:hover{
 /*Hôtel du port*/
 .portimg{
     display: inline-block;
-    margin: 10px;
     border-radius: 20px;
     width: 180px;
     height: 150px;
+    margin: 10px;
     background-color: white;
     box-shadow: 4px 4px 50px gainsboro;
 
@@ -134,10 +146,10 @@ a .aminaimg:hover{
 /*Hôtel Les mouettes*/
 .mouettesimg{
     display: inline-block;
-    margin: 10px;
     border-radius: 20px;
     width: 180px;
     height: 150px;
+    margin: 10px;
     background-color: white;
     box-shadow: 4px 4px 50px gainsboro;
      
@@ -161,11 +173,10 @@ a .aminaimg:hover{
 /*Auberge de la mer*/
 .merimg{
     display: inline-block;
-    margin: 10px;
-    margin-left: -30px;
     border-radius: 20px;
     width: 180px;
     height: 150px;
+    margin: 10px;
     background-color: white;
     box-shadow: 4px 4px 50px gainsboro;
 }
@@ -188,10 +199,10 @@ a .aminaimg:hover{
 /*Auberge Le Panier*/
 .panierimg{
     display: inline-block;
-    margin: 10px;
     border-radius: 20px;
     width: 180px;
     height: 150px;
+    margin: 10px;
     background-color: white;
     box-shadow: 4px 4px 50px gainsboro;
    
@@ -215,10 +226,10 @@ a .aminaimg:hover{
 /*Hôtel chez Amina*/
 .aminaimg{
     display: inline-block;
-    margin: 10px;
     border-radius: 20px;
     width: 180px;
     height: 150px;
+    margin: 10px;
     background-color: white;
     box-shadow: 4px 4px 50px gainsboro;
       
@@ -278,9 +289,3 @@ h3{
     padding-top: 5%;
 }
 
-.affichezplus{
-    display: flexbox;
-    position: relative;
-    margin-top: 0px;
-    margin-left: 30px;
-}
