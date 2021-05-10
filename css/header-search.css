@@ -1,8 +1,5 @@
 /*Header-search*/
-#header-info{
-    width: 980px;
-    margin-bottom: -200px;
-}
+
 h2{
     font-size: 20px;
 }
@@ -32,7 +29,7 @@ h5{
     border-radius: 10px;
     padding-bottom: 0px;
     padding-top: -2px;
-    width: 280px;
+    width: 300px;
     max-height: 38px;
     margin-left: 0px;
     margin-bottom: 20px;
@@ -40,33 +37,29 @@ h5{
 }
 
 #button{
-    width: 100px;
+    font-family: Raleway, sans-serif;
+    width: 150px;
     height: 40px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    padding-left: 13px;
-    margin-left: 1px;
+    text-align: center;
     background-color: #0065fc;
     border: #0065fc;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     color: white;
     font-weight: bold;
-    display: flex;
-    text-align: center;
     cursor: pointer;
-    font-family: Raleway, sans-serif;
+    
     font-weight: bold;
     position: relative;
 }
 #search{
-    padding: 11px 10px;
+    padding: 10px;
+    padding-top: 13px;
     border-radius: 0px;
     border-width: 0px;
     background-color: white;
     width: 150px;
     position: relative;
-   
 }
 
 #icone{

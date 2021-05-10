@@ -17,7 +17,7 @@
         </head>
 
         <body>
-            <div id="main-container">
+            <div id="root">
                 <header id="header">
                     <!--Navigateur-->
                     <div id="header-nav">
@@ -36,9 +36,6 @@
                         </nav>
 
                     </div>
-                </header>
-                <!--Header-search-->
-                <section>
                     <div id="header-info">
                         <!--Introduction-->
                         <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
@@ -86,131 +83,132 @@
                             <div class="texteinfo"><p><NOBR>Plus de 500 logements sont disponibles dans cette ville</NOBR></p></div>
                         </div>
                     </div>
-                </section>
-                <!--Header-search-->
-                <main>
-                    <section id="hosting">
-                        <!--Titre-->
-                        <div class="titreprincipalehébergement">
-                        <h2>Hébergement à Marseille</h2>
-                        </div>
-                        <!--Titre-->         
-                        
-                        <!--Auberge la Cannebiere-->
-                        <div class="framing">
-                            <a href="#">
-                                <figure class="cannebièreimg">
-                                    <img class="cannebièreimage"src="image/cannebière.jpg" alt="Auberge la Cannebière" />
-                                    <figcaption class="figcaption">
-                                        <h3>Auberge la Cannebière</h3>
-                                        <p class="prix">Nuit à partir de <strong>25€</strong></p>
-                                        <div class="star">
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i id="stargrey" class="fas fa-star"></i>
-                                        </div>  
-                                    </figcaption>
-                                </figure>
-                            </a>
+                </header>
+                
+                <main id="main-container">
+                    <div id="hosting-container">
+                        <section id="hosting">
+                            <!--Titre-->
+                            <div class="titreprincipalehébergement">
+                            <h2>Hébergement à Marseille</h2>
+                            </div>
+                            <!--Titre-->         
                             
-                            <!--Hôtel du port-->
-                            <a href="#">
-                                <figure class="portimg">
-                                    <img class="portimage"src="image/port.jpg" alt="Hotel du port" />
-                                    <figcaption class="figcaption">
-                                        <h3>Hôtel du port</h3>
-                                        <p class="prix">Nuit à partir de <strong>52€</strong></p>
-                                        <div class="star">
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                        </div> 
-                                    </figcaption>
-                                </figure>
-                            </a> 
-                            
-                            <!--Hôtel Les mouettes-->
-                            <a href="#">
-                                <figure class="mouettesimg">
-                                    <img class="mouettesimage"src="image/mouettes.jpg" alt="Hotel Les mouettes"/>
-                                    <figcaption class="figcaption">
-                                        <h3>Hôtel Les mouettes</h3>
-                                        <p class="prix">Nuit à partir de <strong>76€</strong></p>
+                            <!--Auberge la Cannebiere-->
+                            <div class="framing">
+                                <a href="#">
+                                    <figure class="cannebièreimg">
+                                        <img class="cannebièreimage"src="image/cannebière.jpg" alt="Auberge la Cannebière" />
+                                        <figcaption class="figcaption">
+                                            <h3>Auberge la Cannebière</h3>
+                                            <p class="prix">Nuit à partir de <strong>25€</strong></p>
                                             <div class="star">
                                                 <i class="fas fa-star"></i>
                                                 <i class="fas fa-star"></i>
                                                 <i class="fas fa-star"></i>
                                                 <i class="fas fa-star"></i>
                                                 <i id="stargrey" class="fas fa-star"></i>
-                                            </div>
-                                    </figcaption>
-                                </figure>
-                            </a> 
-                            
-                            <!--Auberge de la mer-->
-                            <a href="#">
-                                <figure class="merimg">
-                                    <img class="merimage"src="image/mer.jpg" alt="Auberge de la mer" />
-                                    <figcaption class="figcaption">
-                                        <h3>Auberge de la mer</h3>
-                                        <p class="prix">Nuit à partir de <strong>46€</strong></p>
-                                        <div class="star">
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i id="stargrey" class="fas fa-star"></i>
-                                            <i id="stargrey" class="fas fa-star"></i>
-                                        </div>   
-                                    </figcaption>
-                                </figure>
-                            </a>      
-                            
-                            <!--Auberge Le Panier-->
-                            <a href="#">
-                                <figure class="panierimg">
-                                    <img class="panierimage"src="image/panier.jpg" alt="Auberge Le Panier" />
-                                    <figcaption class="figcaption">
-                                        <h3>Auberge Le Panier</h3>
-                                        <p class="prix">Nuit à partir de <strong>23€</strong></p>
+                                            </div>  
+                                        </figcaption>
+                                    </figure>
+                                </a>
+                                
+                                <!--Hôtel du port-->
+                                <a href="#">
+                                    <figure class="portimg">
+                                        <img class="portimage"src="image/port.jpg" alt="Hotel du port" />
+                                        <figcaption class="figcaption">
+                                            <h3>Hôtel du port</h3>
+                                            <p class="prix">Nuit à partir de <strong>52€</strong></p>
                                             <div class="star">
                                                 <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div> 
+                                        </figcaption>
+                                    </figure>
+                                </a> 
+                                
+                                <!--Hôtel Les mouettes-->
+                                <a href="#">
+                                    <figure class="mouettesimg">
+                                        <img class="mouettesimage"src="image/mouettes.jpg" alt="Hotel Les mouettes"/>
+                                        <figcaption class="figcaption">
+                                            <h3>Hôtel Les mouettes</h3>
+                                            <p class="prix">Nuit à partir de <strong>76€</strong></p>
+                                                <div class="star">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i id="stargrey" class="fas fa-star"></i>
+                                                </div>
+                                        </figcaption>
+                                    </figure>
+                                </a> 
+                                
+                                <!--Auberge de la mer-->
+                                <a href="#">
+                                    <figure class="merimg">
+                                        <img class="merimage"src="image/mer.jpg" alt="Auberge de la mer" />
+                                        <figcaption class="figcaption">
+                                            <h3>Auberge de la mer</h3>
+                                            <p class="prix">Nuit à partir de <strong>46€</strong></p>
+                                            <div class="star">
                                                 <i class="fas fa-star"></i>
                                                 <i class="fas fa-star"></i>
                                                 <i class="fas fa-star"></i>
                                                 <i id="stargrey" class="fas fa-star"></i>
-                                            </div>
-                                    </figcaption>
-                                </figure>
-                            </a>                                   
-                            
-                            <!--Hôtel chez Amina-->
-                            <a href="#">
-                                <figure class="aminaimg">
-                                    <img class="aminaimage"src="image/amina.jpg" alt="Hôtel chez Amina"/>
-                                    <figcaption class="figcaption">
-                                        <h3>Hôtel chez Amina</h3>
-                                        <p class="prix">Nuit à partir de <strong>96€</strong></p>
-                                            <div class="star">
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
+                                                <i id="stargrey" class="fas fa-star"></i>
                                             </div>   
-                                    </figcaption>
-                                </figure>
-                            </a>                              
-                        </div>
-
-                        <!--Affichez plus-->
-                        <div class="affichezplus">
-                        <a href="#"><strong>Affichez plus</strong></a>
-                        </div>
-                    </section>            
+                                        </figcaption>
+                                    </figure>
+                                </a>      
+                                
+                                <!--Auberge Le Panier-->
+                                <a href="#">
+                                    <figure class="panierimg">
+                                        <img class="panierimage"src="image/panier.jpg" alt="Auberge Le Panier" />
+                                        <figcaption class="figcaption">
+                                            <h3>Auberge Le Panier</h3>
+                                            <p class="prix">Nuit à partir de <strong>23€</strong></p>
+                                                <div class="star">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i id="stargrey" class="fas fa-star"></i>
+                                                </div>
+                                        </figcaption>
+                                    </figure>
+                                </a>                                   
+                                
+                                <!--Hôtel chez Amina-->
+                                <a href="#">
+                                    <figure class="aminaimg">
+                                        <img class="aminaimage"src="image/amina.jpg" alt="Hôtel chez Amina"/>
+                                        <figcaption class="figcaption">
+                                            <h3>Hôtel chez Amina</h3>
+                                            <p class="prix">Nuit à partir de <strong>96€</strong></p>
+                                                <div class="star">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>   
+                                        </figcaption>
+                                    </figure>
+                                </a>                              
+                            </div>
+    
+                            <!--Affichez plus-->
+                            <div class="affichez-plus">
+                            <a href="#"><strong>Affichez plus</strong></a>
+                            </div>
+                        </section>
                         <!--aside-->
                         <aside id="populaires">
                             <div class="titre-populaires">
@@ -262,105 +260,101 @@
                                                 </div> 
                                         </div> 
                                     </a>
-                        </aside>
+                        </aside>   
+                    </div>
+            
+                    <!--Activités à Marseille-->
+                    <section id="activities-container">
+                        <div class="activities">
+                            <!--Titre-->
+                            <div class="titre-principale-activite">
+                            <h2>Activités à Marseille</h2>
+                            </div>
+                            <!--Titre-->
+                                <a href="#">
+                                    <figure class="vieuxportimg">
+                                        <img class="vieuxportimage"src="image/vieuxport1.png" alt="Vieux Port" />
+                                        <figcaption class="figcaption">
+                                        <h3 class="nom">Vieux Port</h3>
+                                        </figcaption>
+                                    </figure>
+                                </a> 
 
-                            <!--Activités à Marseille-->
-                            <section>
-                                <div class="activities">
-                                    <!--Titre-->
-                                    <div class="titre-principale-activite">
-                                    <h2>Activités à Marseille</h2>
-                                    </div>
-                                    <!--Titre-->
-                                        <a href="#">
-                                            <figure class="vieuxportimg">
-                                                <img class="vieuxportimage"src="image/vieuxport1.png" alt="Vieux Port" />
-                                                <figcaption class="figcaption">
-                                                <h3 class="nom">Vieux Port</h3>
-                                                </figcaption>
-                                            </figure>
-                                        </a> 
-    
-                                        
-                                        <a href="#">
-                                            <figure class="pomeguèsimg">
-                                                <img class="pomeguèsimage"src="image/pomegues.jpg" alt="Fort de Pomègues" />
-                                                <figcaption class="figcaption">
-                                                <h3 class="nom">Fort de Pomègues</h3>
-                                                </figcaption>
-                                            </figure>
-                                        </a> 
-                        
-                                        <a href="#">
-                                            <figure class="frioulimg">
-                                                <img class="frioulimage"src="image/frioul.jpg" alt="Île de Frioul" />
-                                                <figcaption class="figcaption">
-                                                <h3 class="nom">Île de Frioul</h3>
-                                                </figcaption>
-                                            </figure>
-                                        </a>
-                    
-                                        <a href="#">
-                                            <figure class="calanquesimg">
-                                                <img class="calanquesimage"src="image/calanques.jpg" alt="Parc National des Calanques" />
-                                                <figcaption class="figcaption">
-                                                <h3 class="nom">Parc National des Calanques</h3>
-                                                </figcaption>
-                                            </figure>
-                                        </a> 
+                                
+                                <a href="#">
+                                    <figure class="pomeguèsimg">
+                                        <img class="pomeguèsimage"src="image/pomegues.jpg" alt="Fort de Pomègues" />
+                                        <figcaption class="figcaption">
+                                        <h3 class="nom">Fort de Pomègues</h3>
+                                        </figcaption>
+                                    </figure>
+                                </a> 
+                
+                                <a href="#">
+                                    <figure class="frioulimg">
+                                        <img class="frioulimage"src="image/frioul.jpg" alt="Île de Frioul" />
+                                        <figcaption class="figcaption">
+                                        <h3 class="nom">Île de Frioul</h3>
+                                        </figcaption>
+                                    </figure>
+                                </a>
+            
+                                <a href="#">
+                                    <figure class="calanquesimg">
+                                        <img class="calanquesimage"src="image/calanques.jpg" alt="Parc National des Calanques" />
+                                        <figcaption class="figcaption">
+                                        <h3 class="nom">Parc National des Calanques</h3>
+                                        </figcaption>
+                                    </figure>
+                                </a> 
 
-                                        <a href="#">
-                                            <figure class="gardesimg">
-                                                <img class="gardesimage"src="image/gardes.jpg" alt="Notre-Dame-de-la-Gardes" />
-                                                <figcaption class="figcaption">
-                                                <h3 class="nom">Notre-Dame-de-la-Gardes</h3>
-                                                </figcaption>
-                                            </figure>
-                                        </a> 
-                        
-                                        <a href="#">
-                                            <figure class="longchampsimg">
-                                                <img class="longchampsimage"src="image/longchamps.jpg" alt="Parc Longchamps" />
-                                                <figcaption class="figcaption">
-                                                <h3 class="nom">Parc Longchamps</h3>
-                                                </figcaption>
-                                            </figure>
-                                        </a> 
+                                <a href="#">
+                                    <figure class="gardesimg">
+                                        <img class="gardesimage"src="image/gardes.jpg" alt="Notre-Dame-de-la-Gardes" />
+                                        <figcaption class="figcaption">
+                                        <h3 class="nom">Notre-Dame-de-la-Gardes</h3>
+                                        </figcaption>
+                                    </figure>
+                                </a> 
+                
+                                <a href="#">
+                                    <figure class="longchampsimg">
+                                        <img class="longchampsimage"src="image/longchamps.jpg" alt="Parc Longchamps" />
+                                        <figcaption class="figcaption">
+                                        <h3 class="nom">Parc Longchamps</h3>
+                                        </figcaption>
+                                    </figure>
+                                </a> 
 
-                                </div>
-                                <!--Activités à Marseille-->
-                                    
-                            </section>
+                        </div>
+                        <!--Activités à Marseille-->
+                            
+                    </section>
                 </main> 
-            <div class="color">
+                
                     <!--footer-->
                         <footer id="footer">
-                            <div class=footer-1>
-                                <ul class="liste">
-                                    <h4>À propos</h4>
-                                    <li><a href="#" class="underline">Fonctionnement du site</a></li>
-                                    <li><a href="#" class="underline">Conditions générales de ventes</a></li>
-                                    <li><a href="#" class="underline">Données et confidentialités</a></li>
-                                </ul>
-                            </div>
+                            <ul class="liste">
+                                <h4>À propos</h4>
+                                <li><a href="#" class="underline">Fonctionnement du site</a></li>
+                                <li><a href="#" class="underline">Conditions générales de ventes</a></li>
+                                <li><a href="#" class="underline">Données et confidentialités</a></li>
+                            </ul>
 
-                            <div class=footer-2>
-                                <ul class="liste">
-                                    <h4>Nos hébergements</h4>
-                                    <li><a href="#" class="underline">Charte qualité</a></li>
-                                    <li><a href="#" class="underline">Soumettre votre hôtel</a></li>
-                                </ul>
-                            </div>
+                            <ul class="liste">
+                                <h4>Nos hébergements</h4>
+                                <li><a href="#" class="underline">Charte qualité</a></li>
+                                <li><a href="#" class="underline">Soumettre votre hôtel</a></li>
+                            </ul>
 
-                            <div class=footer-3>
-                                <ul class="liste">
-                                    <h4>Assistance</h4>
-                                    <li><a href="#" class="underline">Centre d'aide</a></li>
-                                    <li><a href="#" class="underline">Nous contacter</a></li>
-                                </ul>
-                            </div>
+                            <ul class="liste">
+                                <h4>Assistance</h4>
+                                <li><a href="#" class="underline">Centre d'aide</a></li>
+                                <li><a href="#" class="underline">Nous contacter</a></li>
+                            </ul>
+ 
                         </footer>           
             </div>
-
+            </div>
         </body>
     </html>
