@@ -65,3 +65,39 @@ hr{
     transition: .1s ease-in-out;
 }
 /*Navigator*/
+
+@media screen and (max-width: 1280px){
+    
+    #header{
+        width: auto;
+    }    
+}
+
+@media all and (max-width: 1024px)
+{
+    nav
+    {
+        width: auto;
+        text-align: left;
+    }
+    
+    nav ul
+    {
+        flex-direction: column;
+    }
+
+    nav li
+    {
+        padding-left: 4px;
+    }
+    
+    #asurvol
+    {
+        font-size: 1.1em;
+    }
+    
+    #asurvol:hover
+    {
+        border-bottom: 0;
+    }
+}
