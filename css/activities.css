@@ -1,17 +1,9 @@
-section{
-    width: 1000px;
-    position: relative;
-    margin-top: 0px;
-    margin-bottom: 200px;
-}
-
 .activities{
     display: flex;
     align-content: flex-start;
     flex-wrap: wrap;
     max-width: 1400px;
-    margin-top: 0px;
-    margin-left: 0px;
+    margin-bottom: 20px;
 }
 
 .titre-principale-activité{
