@@ -1,19 +1,20 @@
 /*Header-search*/
+#header-info{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 950px;
+}
+
 h2{
     font-size: 20px;
+    margin: 20px;
+    margin-left: 0px;
 }
 
 h5{
     font-weight: normal;
-    margin-top: -10px;
-    margin-bottom: 10px;
-}
-
-.titre-filtre{
-    margin-left: 0px;
-    margin-right: 50px;
-    margin-top: -10px;
-    padding-top: 0px;
+    margin: 0px;
 }
 
 /*Barre de recherche*/
@@ -30,9 +31,8 @@ h5{
     padding-top: -2px;
     width: 300px;
     max-height: 38px;
+    margin: 20px;
     margin-left: 0px;
-    margin-bottom: 20px;
-    margin-top: 10px;
 }
 
 #button{
@@ -76,15 +76,17 @@ h5{
 
 
 /*Filtre*/
+.titre-filtre{
+    margin-right: 20px;
+}
+
 .filtre{
     display: flex;
     position: relative;
-    justify-content: space-evenly;
-    justify-content: center;
-    background-color: transparent;
-    width: 900px;
-    height: 50px;
-    margin-top: 10px;
+    align-items: center;
+    margin: 0px;
+
+
 }
 
 .economique{
@@ -95,16 +97,10 @@ h5{
     border: solid 2px;
     border-color: #F2F2F2;
     border-radius: 20px;
-    padding-bottom: 0px;
-    padding-top: 0px;
-    padding-left: 0px;
-    padding-right: 10px;
     width: 140px;
     max-height: 35px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 40px;
     font-size: 15px;
+    margin-right: 20px;
 }
 
 #money{
@@ -114,8 +110,9 @@ h5{
     padding: 10px;
     align-items: center;
     border-radius: 100px;
-    margin-left: -5px;
     margin-right: 5px;
+    margin-left: -1px;
+
 }
 
 .familial{
@@ -126,16 +123,9 @@ h5{
     border: solid 2px;
     border-color: #F2F2F2;
     border-radius: 20px;
-    padding-bottom: 0px;
-    padding-top: 0px;
-    padding-left: 0px;
-    padding-right: 10px;
     width: 100px;
-    max-height: 35px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 40px;
-    font-size: 16px;
+    margin-right: 20px;
+    font-size: 14px;
 }
 
 #child{
@@ -145,8 +135,9 @@ h5{
     padding: 10px;
     align-items: center;
     border-radius: 100px;
-    margin-left: -5px;
     margin-right: 5px;
+    margin-left: -1px;
+
 }
 
 .romantique{
@@ -157,15 +148,10 @@ h5{
     border: solid 2px;
     border-color: #F2F2F2;
     border-radius: 20px;
-    padding-bottom: 0px;
-    padding-top: 0px;
-    padding-left: 0px;
     padding-right: 10px;
     width: 140px;
+    margin-right: 20px;
     max-height: 35px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 40px;
     font-size: 16px;       
 }
 
@@ -177,8 +163,9 @@ h5{
     padding: 10px;
     align-items: center;
     border-radius: 100px;
-    margin-left: -5px;
     margin-right: 5px;
+    margin-left: -1px;
+    
 }
 
 .animaux{
@@ -189,15 +176,10 @@ h5{
     border: solid 2px;
     border-color: #F2F2F2;
     border-radius: 20px;
-    padding-bottom: 0px;
-    padding-top: 0px;
-    padding-left: 0px;
     padding-right: 10px;
     width: 190px;
+    margin-right: 20px;
     max-height: 35px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 40px;
     font-size: 16px;
 }
 
@@ -208,8 +190,13 @@ h5{
     padding: 10px;
     align-items: center;
     border-radius: 100px;
-    margin-left: -5px;
     margin-right: 5px;
+    margin-left: -1px;
+}
+
+p{
+    margin: 0px;
+    padding: 0px;
 }
 
 a{
@@ -257,43 +244,31 @@ a .animaux:hover{
     justify-content: space-between;
     align-items: center;
     border-radius: 20px;
-    padding-bottom: 0px;
-    padding-top: 5px;
-    padding-left: -10px;
-    padding-right: -5px;
-    width: 100px;
-    max-height: 30px;
-    margin-left: px;
-    margin-top: 5px;
-    font-size: 11px;
+    width: 440px;
+    margin-bottom: 10px;
 }
 
-.pointinfo{
-    display: flexbox;
-    justify-content: center;
+.point-info{
+    display: flex;
     position: relative;
+    align-items: center;
     color: #0065fc;
-    padding-left: 10px;
+    margin: 0px;
+    padding: 10px;
     padding-top: 5px;
-    padding-bottom: 7px;
+    padding-bottom: 5px;
     border-radius: 70px;
     border: solid 2px #F2F2F2;
-    width: 25px;
-    height: 10px;
-    margin-left: 5px;
-    margin-right: 10px;
-    margin-top: auto;
-    margin-bottom: auto;
-    padding-right: 1em;
+
+    
 }
 
-.texteinfo{
-    display: flexbox;
+.texte-info{
     position: relative;
-    margin-top: 5px;
-    margin-left: 0px;
-    padding-right: 100px;
+    width: 400px;
+    font-size: 14px;
 }
+
 
 /*Infos complémentaire*/
 
