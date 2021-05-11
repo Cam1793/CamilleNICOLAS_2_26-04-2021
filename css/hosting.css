@@ -8,14 +8,17 @@
 }
 
 
-.titreprincipalehébergement{
+.name-hosting{
     font-weight: bold;
     position: relative;
     font-size: 20px;
-    margin-left: 10px;
-    padding-bottom: 0px;
-    padding-top: 0px;
+    margin-left: 20px;
+    margin-bottom: 0px;
 
+}
+h2{
+    margin-bottom: 15px;
+    margin-top: 25px;
 }
 
 .framing{
@@ -29,7 +32,8 @@
 .affichez-plus{
     display: flex;
     position: relative;
-    margin: 10px;
+    margin: 15px;
+    margin-left: 20px;
 }
 
 
@@ -253,7 +257,7 @@ h3{
 
 }
 
-#stargrey{
+.stargrey{
     color: rgba(128, 128, 128, 0.534);
 }
 

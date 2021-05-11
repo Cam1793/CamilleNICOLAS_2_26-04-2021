@@ -2,11 +2,14 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
 }
 
 #hosting-container{
     display: flex;
     flex-direction: row;
 
+}
+
+:root{
+    width: 100%;
 }
