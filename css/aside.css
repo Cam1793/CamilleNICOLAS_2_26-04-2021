@@ -184,10 +184,6 @@ a .blancimg:hover{
     
 }
 
-#star-grey-2{
-    color: rgba(128, 128, 128, 0.534);
-}
-
-#star-grey-3{
+.star-grey{
     color: rgba(128, 128, 128, 0.534);
 }
