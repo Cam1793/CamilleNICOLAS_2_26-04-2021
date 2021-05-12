@@ -9,6 +9,6 @@
     flex-direction: row;
 }
 
-:root{
+#root{
     width: 100%;
 }
