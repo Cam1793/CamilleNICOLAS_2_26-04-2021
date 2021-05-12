@@ -12,6 +12,7 @@
     margin-top: 3px;
 }
 
+
 /*Navigator */
 nav{
     max-block-size: 10px;
@@ -24,7 +25,7 @@ nav ul{
     flex-direction: row;
     justify-content: flex-end;
     margin-top: 15px;
-    margin-left: 500px;
+    margin-left: 0px;
 }
 
 nav li{
@@ -63,6 +64,23 @@ nav li{
     font-weight: normal;
 
 }
+.asurvol_1{
+    color: black;
+    text-decoration: none;
+    position: relative;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    font-size: 13px;
+    line-height: 70px;
+    display: inline-block;
+    margin: 0px;
+    font-weight: normal;
+
+}
+
+
+
 
 #asurvol:hover{
     color: #0065fc;
@@ -76,6 +94,12 @@ nav li{
     border-top: 2px solid #0065fc;
 }
 
+.asurvol_1:hover{
+    color: #0065fc;
+    transition: .2s ease-in-out;
+    border-top: 2px solid #0065fc;
+}
+
 hr{
     height: .05rem;
     width: 5%;
@@ -84,40 +108,3 @@ hr{
     border: none;
     transition: .1s ease-in-out;
 }
-/*Navigator*/
-
-/*@media all and (max-width: 1280px){
-    
-    #header{
-        width: auto;
-    }    
-}
-
-@media all and (max-width: 1024px)
-{
-    nav
-    {
-        width: auto;
-        text-align: left;
-    }
-    
-    nav ul
-    {
-        flex-direction: column;
-    }
-
-    nav li
-    {
-        padding-left: 4px;
-    }
-    
-    #asurvol
-    {
-        font-size: 1.1em;
-    }
-    
-    #asurvol:hover
-    {
-        border-bottom: 0;
-    }
-}*/
