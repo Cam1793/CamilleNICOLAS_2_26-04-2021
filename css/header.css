@@ -9,31 +9,31 @@
     display: flex;
     justify-content: center;
     width: 100%;
-    margin-top: 3px;
 }
-
 
 /*Navigator */
 nav{
     max-block-size: 10px;
-    margin-top: -29px;
+    margin-top: 0px;
     padding-right: -100px;
+    margin-left: 520px;
 }
 
 nav ul{
-    display: inline-flex;
+    display: flex;
     flex-direction: row;
-    justify-content: flex-end;
-    margin-top: 15px;
-    margin-left: 0px;
+    justify-content: center;
+    margin: 0px;
+    
+}
+ul{
+    padding: 0px;
+    
 }
 
 nav li{
-	list-style: none;
-	padding-left: 5px;
-    padding-right: -10em;
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-end; 
 }
 
 #asurvol{
@@ -46,7 +46,6 @@ nav li{
     font-size: 13px;
     line-height: 70px;
     display: inline-block;
-    margin: 0px;
     font-weight: normal;
 }
 
@@ -64,23 +63,6 @@ nav li{
     font-weight: normal;
 
 }
-.asurvol_1{
-    color: black;
-    text-decoration: none;
-    position: relative;
-    width: 100px;
-    height: 50px;
-    text-align: center;
-    font-size: 13px;
-    line-height: 70px;
-    display: inline-block;
-    margin: 0px;
-    font-weight: normal;
-
-}
-
-
-
 
 #asurvol:hover{
     color: #0065fc;
@@ -93,18 +75,38 @@ nav li{
     transition: .2s ease-in-out;
     border-top: 2px solid #0065fc;
 }
+/*Navigator*/
 
-.asurvol_1:hover{
-    color: #0065fc;
-    transition: .2s ease-in-out;
-    border-top: 2px solid #0065fc;
+/*@media all and (max-width: 1280px){
+    
+    #header{
+        width: auto;
+    }    
 }
-
-hr{
-    height: .05rem;
-    width: 5%;
-    margin: 0;
-    background: #444;
-    border: none;
-    transition: .1s ease-in-out;
-}
+@media all and (max-width: 1024px)
+{
+    nav
+    {
+        width: auto;
+        text-align: left;
+    }
+    
+    nav ul
+    {
+        flex-direction: column;
+    }
+    nav li
+    {
+        padding-left: 4px;
+    }
+    
+    #asurvol
+    {
+        font-size: 1.1em;
+    }
+    
+    #asurvol:hover
+    {
+        border-bottom: 0;
+    }
+}*/
