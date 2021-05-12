@@ -83,7 +83,6 @@ nav li{
         width: auto;
     }    
 }
-
 @media all and (max-width: 1024px)
 {
     nav
@@ -96,7 +95,6 @@ nav li{
     {
         flex-direction: column;
     }
-
     nav li
     {
         padding-left: 4px;
