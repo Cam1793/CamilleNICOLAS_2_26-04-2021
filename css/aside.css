@@ -130,7 +130,6 @@ a .blancimg:hover{
 }
 /*blanc*/
 
-
 .name{
     margin-left: 105px;
     margin-top: 0px;
@@ -161,7 +160,6 @@ a .blancimg:hover{
     padding-left: -20px;
     margin-left: 105px;
     margin-top: 5px;
-
 }
 
 .prix-populaires-3{
@@ -170,28 +168,24 @@ a .blancimg:hover{
     padding-left: -20px;
     margin-left: 105px;
     margin-top: 5px;
-
 }
 
 .star-1{
     color: #0065fc;
     font-size: 12px;
-    margin-top: 40px;
-    
+    margin-top: 40px;  
 }
 
 .star-2{
     color: #0065fc;
     font-size: 12px;
-    margin-top: 25px;
-    
+    margin-top: 25px;   
 }
 
 .star-3{
     color: #0065fc;
     font-size: 12px;
     margin-top: 45px;
-    
 }
 
 .star-grey{

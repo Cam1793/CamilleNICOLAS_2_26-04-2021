@@ -14,8 +14,8 @@
     font-size: 20px;
     margin-left: 10px;
     margin-bottom: 0px;
-
 }
+
 h2{
     margin-bottom: 15px;
     margin-top: 25px;
@@ -34,7 +34,6 @@ h2{
     margin: 15px;
     margin-left: 10px;
 }
-
 
 /*a hover*/
 a{
@@ -76,13 +75,11 @@ a .aminaimg:hover{
 /*a hover*/
 
 .first_line{
-    display: flex;
-    
+    display: flex;   
 }
 
 .second_line{
-    display: flex;
-    
+    display: flex;  
 }
 
 /*Hôtel la cannebière*/
@@ -93,8 +90,7 @@ a .aminaimg:hover{
     height: 150px;
     margin: 10px;
     background-color: white;
-    box-shadow: 4px 4px 50px gainsboro;
-    
+    box-shadow: 4px 4px 50px gainsboro;   
 }
 
 .cannebièreimage{
@@ -121,7 +117,6 @@ a .aminaimg:hover{
     margin: 10px;
     background-color: white;
     box-shadow: 4px 4px 50px gainsboro;
-
 }
 
 .portimage{
@@ -147,8 +142,7 @@ a .aminaimg:hover{
     height: 150px;
     margin: 10px;
     background-color: white;
-    box-shadow: 4px 4px 50px gainsboro;
-     
+    box-shadow: 4px 4px 50px gainsboro;   
 }
 
 .mouettesimage{
@@ -200,8 +194,7 @@ a .aminaimg:hover{
     height: 150px;
     margin: 10px;
     background-color: white;
-    box-shadow: 4px 4px 50px gainsboro;
-   
+    box-shadow: 4px 4px 50px gainsboro;  
 }
 
 .panierimage{
@@ -227,8 +220,7 @@ a .aminaimg:hover{
     height: 150px;
     margin: 10px;
     background-color: white;
-    box-shadow: 4px 4px 50px gainsboro;
-      
+    box-shadow: 4px 4px 50px gainsboro;  
 }
 
 .aminaimage{

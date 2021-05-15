@@ -7,8 +7,7 @@
 
 #header-nav{
     display: flex;
-    justify-content: center;
-    
+    justify-content: center;  
 }
 
 /*Navigator */
@@ -22,12 +21,11 @@ nav ul{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: 0px;
-    
+    margin: 0px;  
 }
+
 ul{
-    padding: 0px;
-    
+    padding: 0px;  
 }
 
 nav li{
@@ -60,7 +58,6 @@ nav li{
     display: inline-block;
     margin: 0px;
     font-weight: normal;
-
 }
 
 .signin {
@@ -88,7 +85,4 @@ nav li{
     transition: .2s ease-in-out;
     border-top: 2px solid #0065fc;
 }
-
-
-
 /*Navigator*/

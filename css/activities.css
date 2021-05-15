@@ -3,8 +3,7 @@
     height: auto;
     display: flex;
     justify-content: center;
-    margin-bottom: 20px;
-    
+    margin-bottom: 20px; 
 }
 
 /*titre activité*/
@@ -93,7 +92,6 @@ a .longchampsimg:hover{
     border-radius: 10px;
     box-shadow: 4px 4px 50px gainsboro;
     margin: auto;
-
 }
 .vieuxportimage{
     border-top-left-radius: 10px;
@@ -102,7 +100,6 @@ a .longchampsimg:hover{
     border-bottom-right-radius: 0px;
     height: 310px;
     width: 220px;
-
 }
 /*vieux port*/
 
@@ -116,7 +113,6 @@ a .longchampsimg:hover{
     margin-top: 0px;
     margin-left: 20px;
     margin-right: 20px;
-
 }
 
 .pomeguèsimage{
@@ -137,8 +133,6 @@ a .longchampsimg:hover{
     margin: auto;
     margin-bottom: 0px;
     margin-left: -240px;
-    
-
 }
 
 .frioulimage{
@@ -147,7 +141,6 @@ a .longchampsimg:hover{
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
     width: 223px;
-
 }
 /*frioul*/
 
@@ -158,7 +151,6 @@ a .longchampsimg:hover{
     height: 340px;
     box-shadow: 4px 4px 50px gainsboro;
     margin: auto;
-
 }
 
 .calanquesimage{
@@ -200,8 +192,6 @@ a .longchampsimg:hover{
     margin: auto;
     margin-bottom: 0px;
     margin-left: -257px;
-
-
 }
 
 .longchampsimage{

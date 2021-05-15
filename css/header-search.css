@@ -51,6 +51,7 @@ h5{
     font-weight: bold;
     position: relative;
 }
+
 #search{
     padding: 10px;
     padding-top: 13px;
@@ -70,7 +71,6 @@ h5{
     margin-left: 10px; 
     font-size: 12px;   
 }
-
 /*Barre de recherche*/
 
 
@@ -111,7 +111,6 @@ h5{
     margin-right: 5px;
     margin-left: -1px;
     margin-top: 0px;
-
 }
 
 .familial{
@@ -136,7 +135,6 @@ h5{
     border-radius: 100px;
     margin-right: 5px;
     margin-left: -1px;
-
 }
 
 .romantique{
@@ -163,8 +161,7 @@ h5{
     align-items: center;
     border-radius: 100px;
     margin-right: 5px;
-    margin-left: -1px;
-    
+    margin-left: -1px;  
 }
 
 .animaux{
