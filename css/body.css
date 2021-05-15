@@ -126,17 +126,13 @@ body{
     a.help:active{
         text-decoration: underline;
     }
-        
-    
-
-
 }
 
-  /* Mobile Styles */
-@media screen and (max-width: 767px){
+/* Mobile Styles */
+/*@media screen and (max-width: 767px){
 
     :root{
-      background-color: #F09A9D; /* Red */
+      background-color: #F09A9D;
       padding: 0px;
       width: 100%;
     }
@@ -222,4 +218,4 @@ body{
         height: auto;
     }
 
-}
+}*/
