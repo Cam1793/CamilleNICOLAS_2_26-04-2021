@@ -92,6 +92,7 @@ a .longchampsimg:hover{
     border-radius: 10px;
     box-shadow: 4px 4px 50px gainsboro;
     margin: auto;
+    margin-right: 10px;
 }
 .vieuxportimage{
     border-top-left-radius: 10px;
@@ -151,6 +152,7 @@ a .longchampsimg:hover{
     height: 340px;
     box-shadow: 4px 4px 50px gainsboro;
     margin: auto;
+    margin-right: 10px;
 }
 
 .calanquesimage{

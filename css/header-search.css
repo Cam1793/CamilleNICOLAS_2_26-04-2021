@@ -1,26 +1,22 @@
 /*Header-search*/
 #header-info{
-    display: flex;
-    position: relative;
-    flex-direction: column;
-    width: 970px;
+    width: auto;
+    padding: 0px;
+    margin-left: -200px;
 }
 
-h2{
+h1{
     font-size: 20px;
-    margin: 20px;
-    margin-left: 0px;
 }
 
-h5{
+h4{
     font-weight: normal;
-    margin: 0px;
 }
 
 /*Barre de recherche*/
 .barre{
     display: flex;
-    justify-content: flex-start;
+    flex-direction: row;
     align-items: center;
     border: solid;
     border-width: 1px;
@@ -31,8 +27,6 @@ h5{
     padding-top: -2px;
     width: 300px;
     max-height: 38px;
-    margin: 20px;
-    margin-left: 0px;
 }
 
 #button{
@@ -47,7 +41,6 @@ h5{
     color: white;
     font-weight: bold;
     cursor: pointer;
-    
     font-weight: bold;
     position: relative;
 }
@@ -77,14 +70,15 @@ h5{
 
 /*Filtre*/
 .titre-filtre{
-    margin-right: 20px;
+    width: auto;
 }
 
 .filtre{
     display: flex;
     position: relative;
     align-items: center;
-    margin: 0px;
+    width: auto;
+    padding: 0px;
 }
 
 .economique{
@@ -98,7 +92,7 @@ h5{
     width: 140px;
     max-height: 35px;
     font-size: 15px;
-    margin-right: 20px;
+    margin: 10px;
 }
 
 #money{
@@ -122,7 +116,7 @@ h5{
     border-color: #F2F2F2;
     border-radius: 20px;
     width: 100px;
-    margin-right: 20px;
+    margin: 10px;
     font-size: 14px;
 }
 
@@ -147,7 +141,7 @@ h5{
     border-radius: 20px;
     padding-right: 10px;
     width: 140px;
-    margin-right: 20px;
+    margin: 10px;
     max-height: 35px;
     font-size: 16px;       
 }
@@ -174,7 +168,7 @@ h5{
     border-radius: 20px;
     padding-right: 10px;
     width: 190px;
-    margin-right: 20px;
+    margin: 10px;
     max-height: 35px;
     font-size: 16px;
 }
@@ -255,8 +249,6 @@ a .animaux:hover{
     padding-bottom: 5px;
     border-radius: 70px;
     border: solid 2px #F2F2F2;
-
-    
 }
 
 .texte-info{
