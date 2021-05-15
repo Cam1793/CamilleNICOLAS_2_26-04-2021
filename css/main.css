@@ -1,12 +1,11 @@
 #main-container{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 #hosting-container{
     display: flex;
-    flex-direction: row;
+    width: 970px;
 }
-
 

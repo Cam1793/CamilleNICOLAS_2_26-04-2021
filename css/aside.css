@@ -3,7 +3,8 @@
     background-color: #f2f2f2;
     border-radius: 20px;
     padding: 10px;
-
+    width: auto;
+    height: 440px;
 }
 
 .titre-populaires{
@@ -12,7 +13,7 @@
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 0px;
-    width: 280px;
+    width: 270px;
 }
 
 .titre-pop{
@@ -56,7 +57,7 @@ a .blancimg:hover{
 
 /*matin*/
 .matinimg{
-    width: 275px;
+    width: auto;
     border-radius: 20px;
     box-shadow: 4px 4px 50px gainsboro;
     padding-top: 5px;
@@ -82,7 +83,7 @@ a .blancimg:hover{
 
 /*eau*/
 .eauimg{
-    width: 275px;
+    width: auto;
     border-radius: 20px;
     box-shadow: 4px 4px 50px gainsboro;
     padding-top: 5px;
@@ -107,12 +108,12 @@ a .blancimg:hover{
 
 /*blanc*/
 .blancimg{
-    width: 280px;
+    width: auto;
     border-radius: 20px;
     box-shadow: 4px 4px 50px gainsboro;
     padding-top: 5px;
     padding-bottom: 5px;
-    padding-right: 0px;
+    padding-right: 5px;
     padding-left: 5px;
     margin-bottom: 20px;
     background-color: white;
@@ -129,12 +130,20 @@ a .blancimg:hover{
 }
 /*blanc*/
 
-
 .name{
     margin-left: 105px;
     margin-top: 0px;
     margin-bottom: 0px;
     font-size: 13px;
+}
+
+.name_1{
+    margin-left: 105px;
+    margin-right: 40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 13px;
+    
 }
 
 .prix-populaires-1{
@@ -151,7 +160,6 @@ a .blancimg:hover{
     padding-left: -20px;
     margin-left: 105px;
     margin-top: 5px;
-
 }
 
 .prix-populaires-3{
@@ -160,28 +168,24 @@ a .blancimg:hover{
     padding-left: -20px;
     margin-left: 105px;
     margin-top: 5px;
-
 }
 
 .star-1{
     color: #0065fc;
     font-size: 12px;
-    margin-top: 40px;
-    
+    margin-top: 40px;  
 }
 
 .star-2{
     color: #0065fc;
     font-size: 12px;
-    margin-top: 25px;
-    
+    margin-top: 25px;   
 }
 
 .star-3{
     color: #0065fc;
     font-size: 12px;
     margin-top: 45px;
-    
 }
 
 .star-grey{

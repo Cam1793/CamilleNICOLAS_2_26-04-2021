@@ -1,12 +1,16 @@
 #footer{
     display: flex;
-    flex-direction: row;
     justify-content: center;
     background-color: #f2f2f2;
     width: 100%;
+    margin: auto;
     position: relative;
-    padding-top: 20px;
-    padding-bottom: 20px;
+}
+
+.framing_footer{
+    display: flex;
+    align-content: space-between;
+    width: auto;
 }
 
 .liste{
@@ -14,13 +18,16 @@
     position: relative;
     flex-direction: column;
     list-style-type: none;
-    margin: 0px;
-    padding: 0px;
+    margin-right: 150px;
 }
 
 .name-footer{
-    margin-top: 0px;
-    margin-right: 160px;
+    margin-right: -50px;
+ }
+    
+.name-footer-1{
+    margin-left: -270px;
+    margin-right: -100px;
 }
 
 li{
@@ -40,11 +47,11 @@ a{
     color: black;
 }
 
-a.underline:hover{
+a.help:hover{
     text-decoration: underline;
 }
 
-.underline{
+.help{
     display: inline;
     position: relative;
     font-size: 13px;

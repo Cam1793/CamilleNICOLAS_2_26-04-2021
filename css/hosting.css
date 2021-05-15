@@ -1,10 +1,10 @@
 #hosting{
     background-color: #f2f2f2;
     border-radius: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 620px;
-    margin-right: 25px;
+    width: auto;
+    height: auto;
+    margin-right: 20px;
+    padding-left: 20px;
 }
 
 
@@ -12,10 +12,10 @@
     font-weight: bold;
     position: relative;
     font-size: 20px;
-    margin-left: 20px;
+    margin-left: 10px;
     margin-bottom: 0px;
-
 }
+
 h2{
     margin-bottom: 15px;
     margin-top: 25px;
@@ -24,18 +24,16 @@ h2{
 .framing{
     display: flex;
     flex-wrap: wrap;
-    max-width: 650px;
-    margin: 10px;
-    margin-top: 0px;    
+    width: auto;
+ 
 }
 
 .affichez-plus{
     display: flex;
     position: relative;
     margin: 15px;
-    margin-left: 20px;
+    margin-left: 10px;
 }
-
 
 /*a hover*/
 a{
@@ -76,6 +74,14 @@ a .aminaimg:hover{
 }
 /*a hover*/
 
+.first_line{
+    display: flex;   
+}
+
+.second_line{
+    display: flex;  
+}
+
 /*Hôtel la cannebière*/
 .cannebièreimg{
     display: inline-block;
@@ -84,8 +90,7 @@ a .aminaimg:hover{
     height: 150px;
     margin: 10px;
     background-color: white;
-    box-shadow: 4px 4px 50px gainsboro;
-    
+    box-shadow: 4px 4px 50px gainsboro;   
 }
 
 .cannebièreimage{
@@ -112,7 +117,6 @@ a .aminaimg:hover{
     margin: 10px;
     background-color: white;
     box-shadow: 4px 4px 50px gainsboro;
-
 }
 
 .portimage{
@@ -138,8 +142,7 @@ a .aminaimg:hover{
     height: 150px;
     margin: 10px;
     background-color: white;
-    box-shadow: 4px 4px 50px gainsboro;
-     
+    box-shadow: 4px 4px 50px gainsboro;   
 }
 
 .mouettesimage{
@@ -191,8 +194,7 @@ a .aminaimg:hover{
     height: 150px;
     margin: 10px;
     background-color: white;
-    box-shadow: 4px 4px 50px gainsboro;
-   
+    box-shadow: 4px 4px 50px gainsboro;  
 }
 
 .panierimage{
@@ -218,8 +220,7 @@ a .aminaimg:hover{
     height: 150px;
     margin: 10px;
     background-color: white;
-    box-shadow: 4px 4px 50px gainsboro;
-      
+    box-shadow: 4px 4px 50px gainsboro;  
 }
 
 .aminaimage{
@@ -276,3 +277,4 @@ h3{
     font-size: 1em;
     padding-top: 5%;
 }
+
