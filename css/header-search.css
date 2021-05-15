@@ -3,7 +3,7 @@
     display: flex;
     position: relative;
     flex-direction: column;
-    width: 930px;
+    width: 970px;
 }
 
 h2{
@@ -27,7 +27,7 @@ h5{
     border-color: #F2F2F2;
     background-color: #F2F2F2;
     border-radius: 10px;
-    padding-bottom: 0px;
+    padding-bottom: 1px;
     padding-top: -2px;
     width: 300px;
     max-height: 38px;
@@ -85,8 +85,6 @@ h5{
     position: relative;
     align-items: center;
     margin: 0px;
-
-
 }
 
 .economique{
@@ -112,6 +110,7 @@ h5{
     border-radius: 100px;
     margin-right: 5px;
     margin-left: -1px;
+    margin-top: 0px;
 
 }
 

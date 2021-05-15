@@ -8,7 +8,7 @@
 #header-nav{
     display: flex;
     justify-content: center;
-    width: 100%;
+    
 }
 
 /*Navigator */
@@ -16,7 +16,6 @@ nav{
     max-block-size: 10px;
     margin-top: 0px;
     padding-right: -100px;
-    margin-left: 520px;
 }
 
 nav ul{
@@ -36,7 +35,7 @@ nav li{
     justify-content: flex-end; 
 }
 
-#asurvol{
+#survol{
     color: black;
     text-decoration: none;
     position: relative;
@@ -45,11 +44,11 @@ nav li{
     text-align: center;
     font-size: 13px;
     line-height: 70px;
-    display: inline-block;
     font-weight: normal;
+    margin-left: 600px;
 }
 
-.asurvol{
+.survol{
     color: black;
     text-decoration: none;
     position: relative;
@@ -64,15 +63,32 @@ nav li{
 
 }
 
-#asurvol:hover{
+.signin {
+    display: flex;
+    align-items: center;
+    padding-bottom: 8px;
+    margin-top: 28px;
+}
+  
+.signin a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #0065fc;
+    padding-left: 10px;
+}
+
+#survol:hover{
     color: #0065fc;
     transition: .2s ease-in-out;
     border-top: 2px solid #0065fc;
 }
 
-.asurvol:hover{
+.survol:hover{
     color: #0065fc;
     transition: .2s ease-in-out;
     border-top: 2px solid #0065fc;
 }
+
+
+
 /*Navigator*/

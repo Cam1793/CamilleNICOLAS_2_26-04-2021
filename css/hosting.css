@@ -1,10 +1,10 @@
 #hosting{
     background-color: #f2f2f2;
     border-radius: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 620px;
-    margin-right: 25px;
+    width: auto;
+    height: auto;
+    margin-right: 20px;
+    padding-left: 20px;
 }
 
 
@@ -12,7 +12,7 @@
     font-weight: bold;
     position: relative;
     font-size: 20px;
-    margin-left: 20px;
+    margin-left: 10px;
     margin-bottom: 0px;
 
 }
@@ -24,16 +24,15 @@ h2{
 .framing{
     display: flex;
     flex-wrap: wrap;
-    max-width: 650px;
-    margin: 10px;
-    margin-top: 0px;    
+    width: auto;
+ 
 }
 
 .affichez-plus{
     display: flex;
     position: relative;
     margin: 15px;
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 
@@ -75,6 +74,16 @@ a .aminaimg:hover{
     transition: transform 100ms ease-in-out;
 }
 /*a hover*/
+
+.first_line{
+    display: flex;
+    
+}
+
+.second_line{
+    display: flex;
+    
+}
 
 /*Hôtel la cannebière*/
 .cannebièreimg{
@@ -276,3 +285,4 @@ h3{
     font-size: 1em;
     padding-top: 5%;
 }
+

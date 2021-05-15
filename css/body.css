@@ -1,5 +1,6 @@
 body{
     font-family: Raleway, sans-serif;
+    margin: 0px;
 }
 
 #root{
@@ -7,6 +8,218 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100%;
-    margin: 0;
+    width: auto;
+}
+
+/******Ipad******/
+@media  screen and (min-width: 768px) and (max-width: 991px) {
+    
+    #root{
+        flex-wrap: wrap;
+        width: auto;
+    }
+
+    #header-nav{
+        width: 100%;  
+    }
+    
+    .logo{
+        margin-left: -220px;
+    }
+    a#survol{
+        margin-left: 340px;
+    }
+
+    #header-info{
+        margin-left: 30px;
+    }
+
+    .navigator{
+        margin-left: 0px;
+    }
+    
+    .filtre{
+        width: 100px;
+        height: 100px;
+    }
+
+    .titre-filtre{
+        margin-right: 0px;
+        margin-left: 5px;
+        height: 150px;
+    }
+
+    .economique{
+        margin-left: -100px;
+    }
+
+    #hosting{
+        margin: 10px;
+        padding-left: -5px;
+        padding-right: 11px;
+    }
+
+    .first_line{
+        flex-direction: column;
+    }
+    
+    .second_line{
+        flex-direction: column;
+        
+    }
+    
+    #populaires{
+        margin: 0px;
+        margin-left: 2px;
+        margin-top: 10px;
+        width: 50px;
+        
+    }
+
+    .activities{
+        display: flex;
+        justify-content: center;
+        padding: 0px;
+    }
+    .cards_activities{
+        flex-direction: column;
+        align-content: space-between;
+        margin-left: 100px;
+        width: auto;
+        height: auto;
+    }
+
+    .name_activities{
+        margin-left: -200px;
+    }
+
+    .third_line{
+        margin: auto;
+        width: auto;
+        display: flex;
+        padding-top: 20px;
+    }
+    
+    .fourth_line{
+        margin: auto;
+        width: auto;
+        display: flex;
+        padding-top: 50px;
+        padding-left: 20px;
+    }
+
+    #footer{
+        width: auto;
+        height: auto;
+        padding-left: 200px;
+    }
+
+    .name-footer{
+        margin-right: -50px;
+    }
+    
+    .name-footer-1{
+        margin-left: -270px;
+        margin-right: -100px;
+    }
+
+    a.help:active{
+        text-decoration: underline;
+    }
+        
+    
+
+
+}
+
+  /* Mobile Styles */
+@media screen and (max-width: 767px){
+
+    :root{
+      background-color: #F09A9D; /* Red */
+      padding: 0px;
+      width: 100%;
+    }
+
+    #header {
+        display: block;
+
+    }
+    #header-nav{
+        display: block;
+        width: 0px;
+        height: 100px;
+        
+    }
+    .logo{
+        margin-left: -20px;
+    }
+    
+    
+    a#survol{
+        margin-top: 0px;
+        margin-left: 100px;
+        border-bottom: 2px solid #e6e2e7;
+
+
+    }
+    a.survol{
+        margin-top: 0px;
+        margin-left: 0px;
+        border-bottom: 2px solid #e6e2e7;
+        
+    }
+
+    .navigator{
+        margin-top: 70px;
+        padding: 0px;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+
+    .signin{
+        border: solid 1px;
+        margin: 0px;
+        height: 30px;
+    }
+
+    #hosting-container{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .framing{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aside{
+        display: none;
+        width: auto;
+        height: auto;
+    }
+
+    .activities{
+        display: none;
+        width: auto;
+        height: auto;
+    }
+
+
+    #footer{
+        display: none;
+        width: auto;
+        height: auto;
+    }
+
+    .name-footer{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        height: auto;
+    }
+
 }
