@@ -25,8 +25,6 @@ h2{
 .framing{
     display: flex;
     flex-wrap: wrap;
-    width: auto;
- 
 }
 
 .affichez-plus{
@@ -44,32 +42,32 @@ a{
     color: black;
     
 }
-a .cannebièreimg:hover{
+a .cannebière-img:hover{
     transform: scale(1.03);
     transition: transform 100ms ease-in-out;
 }
 
-a .merimg:hover{
+a .mer-img:hover{
     transform: scale(1.03);
     transition: transform 100ms ease-in-out;
 }
 
-a .portimg:hover{
+a .port-img:hover{
     transform: scale(1.03);
     transition: transform 100ms ease-in-out;
 }
 
-a .panierimg:hover{
+a .panier-img:hover{
     transform: scale(1.03);
     transition: transform 100ms ease-in-out;
 }
 
-a .mouettesimg:hover{
+a .mouettes-img:hover{
     transform: scale(1.03);
     transition: transform 100ms ease-in-out;
 }
 
-a .aminaimg:hover{
+a .amina-img:hover{
     transform: scale(1.03);
     transition: transform 100ms ease-in-out;
 }
@@ -77,165 +75,145 @@ a .aminaimg:hover{
 
 .first_line{
     display: flex;   
+    margin: 10px;
 }
 
 .second_line{
-    display: flex;  
+    display: flex; 
+    padding-left: 5px;
+    
 }
 
 /*Hôtel la cannebière*/
-.cannebièreimg{
+.cannebiere-img{
     display: inline-block;
     border-radius: 20px;
-    width: 180px;
+    width: 100%;
     height: 150px;
     margin: 10px;
     background-color: white;
     box-shadow: 4px 4px 50px gainsboro;   
 }
 
-.cannebièreimage{
+.cannebiere-image{
     clip: left 100px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
-    padding-left: 5px;
-    padding-top: 5px;
-    padding-right: 5px;
-    padding-bottom: 0px;
     height: 80px;
-    width: 170px;
+    width: 100%;
 }
 /*Hôtel la cannebière*/
 
 /*Hôtel du port*/
-.portimg{
+.port-img{
     display: inline-block;
     border-radius: 20px;
-    width: 180px;
+    width: 100%;
     height: 150px;
     margin: 10px;
     background-color: white;
     box-shadow: 4px 4px 50px gainsboro;
 }
 
-.portimage{
+.port-image{
     clip: left 100px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
-    padding-left: 5px;
-    padding-top: 5px;
-    padding-right: 5px;
-    padding-bottom: 0px;
     height: 80px;
-    width: 170px;
+    width: 100%;
 }
 /*Hôtel du port*/
 
 /*Hôtel Les mouettes*/
-.mouettesimg{
+.mouettes-img{
     display: inline-block;
     border-radius: 20px;
-    width: 180px;
+    width: 100%;
     height: 150px;
     margin: 10px;
     background-color: white;
     box-shadow: 4px 4px 50px gainsboro;   
 }
 
-.mouettesimage{
+.mouettes-image{
     clip: left 100px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
-    padding-left: 5px;
-    padding-top: 5px;
-    padding-right: 5px;
-    padding-bottom: 0px;
     height: 80px;
-    width: 170px;
+    width: 100%;
 }
 /*Hôtel Les mouettes*/
 
 /*Auberge de la mer*/
-.merimg{
+.mer-img{
     display: inline-block;
     border-radius: 20px;
-    width: 180px;
+    width: 100%;
     height: 150px;
-    margin: 10px;
+    margin: 15px;
+    margin-top: 10px;
     background-color: white;
     box-shadow: 4px 4px 50px gainsboro;
 }
 
-.merimage{
+.mer-image{
     clip: left 100px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
-    padding-left: 5px;
-    padding-top: 5px;
-    padding-right: 5px;
-    padding-bottom: 0px;
     height: 80px;
-    width: 170px;
+    width: 100%;
 }
 /*Auberge de la mer*/
 
 /*Auberge Le Panier*/
-.panierimg{
+.panier-img{
     display: inline-block;
     border-radius: 20px;
-    width: 180px;
+    width: 100%;
     height: 150px;
     margin: 10px;
     background-color: white;
     box-shadow: 4px 4px 50px gainsboro;  
 }
 
-.panierimage{
+.panier-image{
     clip: left 100px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
-    padding-left: 5px;
-    padding-top: 5px;
-    padding-right: 5px;
-    padding-bottom: 0px;
     height: 80px;
-    width: 170px;
+    width: 100%;
 }
 /*Auberge Le Panier*/
 
 /*Hôtel chez Amina*/
-.aminaimg{
+.amina-img{
     display: inline-block;
     border-radius: 20px;
-    width: 180px;
+    width: 100%;
     height: 150px;
     margin: 10px;
     background-color: white;
     box-shadow: 4px 4px 50px gainsboro;  
 }
 
-.aminaimage{
+.amina-image{
     clip: left 100px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
-    padding-left: 5px;
-    padding-top: 5px;
-    padding-right: 5px;
-    padding-bottom: 0px;
     height: 80px;
-    width: 170px;
+    width: 100%;
 }
 /*Hôtel chez Amina*/
 

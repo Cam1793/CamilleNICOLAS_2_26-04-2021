@@ -56,7 +56,7 @@ a .blancimg:hover{
 
 
 /*matin*/
-.matinimg{
+.matin-img{
     width: auto;
     border-radius: 20px;
     box-shadow: 4px 4px 50px gainsboro;
@@ -68,7 +68,7 @@ a .blancimg:hover{
     background-color: white;
 }
 
-.matinimage{
+.matin-image{
     clip: left 100px;
     border-top-left-radius: 15px;
     border-top-right-radius: 0px;
@@ -82,7 +82,7 @@ a .blancimg:hover{
 
 
 /*eau*/
-.eauimg{
+.eau-img{
     width: auto;
     border-radius: 20px;
     box-shadow: 4px 4px 50px gainsboro;
@@ -94,7 +94,7 @@ a .blancimg:hover{
     background-color: white;
 }
 
-.eauimage{
+.eau-image{
     clip: left 100px;
     border-top-left-radius: 15px;
     border-top-right-radius: 0px;
@@ -107,7 +107,7 @@ a .blancimg:hover{
 /*eau*/
 
 /*blanc*/
-.blancimg{
+.blanc-img{
     width: auto;
     border-radius: 20px;
     box-shadow: 4px 4px 50px gainsboro;
@@ -118,7 +118,7 @@ a .blancimg:hover{
     margin-bottom: 20px;
     background-color: white;
 }
-.blancimage{
+.blanc-image{
     clip: left 100px;
     border-top-left-radius: 15px;
     border-top-right-radius: 0px;

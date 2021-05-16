@@ -1,9 +1,8 @@
 .activities{
-    width: auto;
-    height: auto;
     display: flex;
-    justify-content: center;
-    margin-bottom: 20px; 
+    margin: auto;
+    height: auto;
+    margin-bottom: 20px;
 }
 
 /*titre activité*/
@@ -14,14 +13,15 @@
     height: auto;
 }
 
-.nom_1{
-    margin-top: -10px;
-    padding-bottom: 8px;
-}
 .name_activities{
+    
     font-weight: bold;
     position: relative;
     font-size: 20px;
+}
+
+h3 .nom_1{
+    margin-top: -5px;
 }
 /*titre activité*/
 
@@ -67,23 +67,52 @@ a .longchampsimg:hover{
 /*a hover*/
 
 .cards_activities{
+    border-radius: 0px;
+    background-color: #fff;
+    margin-left: 0%;
+    margin-bottom: 1em;
     display: flex;
-    justify-content: space-between;
-    margin-top: 60px;
-    margin-left: -190px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .third_line{
-    margin: auto;
-    width: auto;
     display: flex;
+    justify-content: center;
+    width: 100%;
+    
 }
 
 .fourth_line{
-    margin: auto;
-    width: auto;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+ 
+}
+
+.fifth_line{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+.sixth_line{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+.media-1{
     display: flex;
 }
+
+.media-2{
+    display: flex;
+}
+
 
 /*vieux port*/
 .vieuxportimg{
@@ -192,6 +221,7 @@ a .longchampsimg:hover{
     height: auto;
     box-shadow: 4px 4px 50px gainsboro;
     margin: auto;
+    margin-top: 185px;
     margin-bottom: 0px;
     margin-left: -257px;
 }
@@ -202,6 +232,6 @@ a .longchampsimg:hover{
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
     width: 220px;
-    height: 130px;
+    height: 120px;
 }
 /*longchamps*/
