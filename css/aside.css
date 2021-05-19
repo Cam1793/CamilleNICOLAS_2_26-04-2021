@@ -1,33 +1,36 @@
-#populaires{
-    font-family: Raleway, sans-serif;  
+aside{
+    border-radius: 15px;
     background-color: #f2f2f2;
-    border-radius: 20px;
-    padding: 10px;
-    width: auto;
-    height: 440px;
+    padding: 2vh 1vw 0vh 1vw;
+}
+
+#populaires{
+    border-radius: 15px;
+    background-color: #f2f2f2;
+    padding: 0vw 2vw 0vw 2vw;
 }
 
 .titre-populaires{
-    display: inline-flex;
+    padding: 10px 0px 20px 0px;
+    display: flex;
     justify-content: space-between;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding: 0px;
-    width: 270px;
+    align-items: center;
 }
 
 .titre-pop{
-    padding-left: 0px;
-    font-weight: bold;
-    margin-left: 0px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    font-size: 20px;
+    width: 320px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-#iconepopulaires{
-    padding-top: 20px;
-    
+.icone-populaire{
+    font-weight: bold;
+    font-size: 2em; 
+}
+
+.trend-hosting{
+    width: 100%;
 }
 
 /*a hover*/
@@ -54,138 +57,102 @@ a .blancimg:hover{
 }
 /*a hover*/
 
-
 /*matin*/
 .matin-img{
-    width: auto;
-    border-radius: 20px;
-    box-shadow: 4px 4px 50px gainsboro;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-right: 5px;
-    padding-left: 5px;
-    margin-bottom: 20px;
-    background-color: white;
+    display: flex;
+    width: 400px;
+    height: 150px;
+    background-color: #fff;
+    border: 5px solid #fff;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 16px #0000002e;
 }
 
 .matin-image{
-    clip: left 100px;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 0px;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 0px;
-    margin-right: 5px;
-    width: 100px;
-    float: left;
+    height: 100%;
+    width: 40%;
+    object-fit: cover;
+    border-radius: 11px 0px 0px 11px;
 }
 /*matin*/
 
 
 /*eau*/
 .eau-img{
-    width: auto;
-    border-radius: 20px;
-    box-shadow: 4px 4px 50px gainsboro;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-right: 5px;
-    padding-left: 5px;
-    margin-bottom: 20px;
-    background-color: white;
+    display: flex;
+    width: 400px;
+    height: 150px;
+    background-color: #fff;
+    border: 5px solid #fff;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 16px #0000002e;
 }
 
 .eau-image{
-    clip: left 100px;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 0px;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 0px;
-    margin-right: 5px;
-    width: 100px;
-    float: left;
+    height: 100%;
+    width: 40%;
+    object-fit: cover;
+    border-radius: 11px 0px 0px 11px;
 }
 /*eau*/
 
 /*blanc*/
 .blanc-img{
-    width: auto;
-    border-radius: 20px;
-    box-shadow: 4px 4px 50px gainsboro;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-right: 5px;
-    padding-left: 5px;
-    margin-bottom: 20px;
-    background-color: white;
+    display: flex;
+    width: 400px;
+    height: 150px;
+    background-color: #fff;
+    border: 5px solid #fff;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 16px #0000002e;
 }
+
 .blanc-image{
-    clip: left 100px;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 0px;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 0px;
-    margin-right: 5px;
-    width: 100px;
-    float: left;
+    height: 100%;
+    width: 40%;
+    object-fit: cover;
+    border-radius: 11px 0px 0px 11px;
 }
 /*blanc*/
 
+.aside_text{
+    padding: 10px;
+    line-height: 1.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .name{
-    margin-left: 105px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    font-size: 13px;
+    font-size: 1.2em;
+    margin: 0;
 }
 
-.name_1{
-    margin-left: 105px;
-    margin-right: 40px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    font-size: 13px;
-    
-}
-
-.prix-populaires-1{
-    font-size: 11px;
+.prix-populaires{
+    font-size: 1em;
     font-weight: normal;
-    padding-left: -20px;
-    margin-left: 105px;
-    margin-top: 5px;
+    margin: 0;
 }
 
-.prix-populaires-2{
-    font-size: 11px;
-    font-weight: normal;
-    padding-left: -20px;
-    margin-left: 105px;
-    margin-top: 5px;
-}
-
-.prix-populaires-3{
-    font-size: 11px;
-    font-weight: normal;
-    padding-left: -20px;
-    margin-left: 105px;
-    margin-top: 5px;
-}
-
-.star-1{
+.star{
     color: #0065fc;
     font-size: 12px;
-    margin-top: 40px;  
+    line-height: 1.5em; 
 }
 
-.star-2{
+.star{
     color: #0065fc;
     font-size: 12px;
-    margin-top: 25px;   
+    line-height: 1.5em; 
 }
 
-.star-3{
+.star{
     color: #0065fc;
     font-size: 12px;
-    margin-top: 45px;
+    line-height: 1.5em;
 }
 
 .star-grey{

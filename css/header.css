@@ -1,93 +1,40 @@
-#header{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
+header{
+    padding: 0vw 2vw 0vw 2vw;
 }
 
-#header-nav{
+.top-header{
+    margin-top: 1.4em;
     display: flex;
-    justify-content: center;  
-    width: 100%;
-}
-
-.logo{
-    margin-left: -20px;
+    justify-content: space-between;
 }
 
 /*Navigator */
 nav{
-    max-block-size: 10px;
-    margin-top: 0px;
-    padding-right: -100px;
-}
-
-nav ul{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: 0px;  
+    width: 35%;
+    font-size: 1.1em;
+    justify-content: space-around;
+    align-items: flex-end;
 }
 
-ul{
-    padding: 0px;  
-}
-
-nav li{
-    display: flex;
-    justify-content: flex-end; 
-}
-
-#survol{
+nav a{
+    padding-bottom: 15px;
+    height: 100%;
     color: black;
-    text-decoration: none;
-    position: relative;
-    width: 100px;
-    height: 50px;
-    text-align: center;
-    font-size: 13px;
-    line-height: 70px;
     font-weight: normal;
-    margin-left: 570px;
-}
-
-.survol{
-    color: black;
     text-decoration: none;
-    position: relative;
-    width: 100px;
-    height: 50px;
-    text-align: center;
-    font-size: 13px;
-    line-height: 70px;
-    display: inline-block;
-    margin: 0px;
-    font-weight: normal;
-}
-
-.signin {
     display: flex;
-    align-items: center;
-    padding-bottom: 8px;
-    margin-top: 28px;
-}
-  
-.signin a {
-    text-decoration: none;
-    font-weight: bold;
-    color: #0065fc;
-    padding-left: 10px;
+    align-items: flex-end;
 }
 
-#survol:hover{
+.signin{
     color: #0065fc;
-    transition: .2s ease-in-out;
-    border-top: 2px solid #0065fc;
 }
 
-.survol:hover{
+.nav-a:hover{
     color: #0065fc;
+    border-top: 1px solid #0065fc;
     transition: .2s ease-in-out;
-    border-top: 2px solid #0065fc;
+    line-height: 10px;
 }
 /*Navigator*/

@@ -1,0 +1,433 @@
+/*******Media Queries*********/
+
+/******Ipad******/
+/*@media  screen and (min-width: 768px) and (max-width: 991px) {
+
+    body{
+        font-family: Raleway, sans-serif;
+        margin: 0px;
+        width: 100%;
+    }
+    
+    #root{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    
+    #header-nav{
+        width: 100%;  
+    }
+    
+    a#survol{
+        margin-left: 300px;
+    }
+
+    
+    #header-info{
+        width: auto;
+        border: solid 1px;
+    }
+
+    .header-search{
+        width: 100%;
+        justify-content: flex-start;
+        border: solid 1px;
+    }
+
+    
+    #hosting{
+        padding-right: 20px;
+        margin-left: 10px;
+    }
+
+    .first_line{
+        flex-direction: column;
+    }
+    
+    .second_line{
+        flex-direction: column;
+    }
+
+    .hosting-trend{
+        display: flex;
+        justify-content: space-between;
+        width: 65%;
+    }
+
+    
+
+    
+    #populaires{
+        margin: 0px;
+        margin-left: -35px;
+        width: 50px; 
+    }
+    
+
+      
+    #activities-container{
+        margin-left: -200px;
+    }
+
+    .activities{
+        display: flex;
+        justify-content: center;
+        padding: 0px;
+        height: auto;
+        margin: 10px;   
+    }
+
+    .cards_activities{
+
+        margin-left: 30px;
+        width: auto;
+        height: auto;
+    }
+
+    .name_activities{
+        margin-left: 10px;
+    }
+        
+    .third_line{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .fourth_line{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        height: 350px;
+        margin-top: 10px;
+    }
+
+    .fifth_line{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .sixth_line{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 350px;
+        margin-top: 20px;
+    }
+
+    .longchampsimage{
+        margin-bottom: 5px;
+    }
+
+    .media-1{
+        margin-right: 100px;
+        flex-direction: column;
+    }
+
+    .media-2{
+        margin-left: -100px;
+        flex-direction: column;
+    }
+    
+
+
+    
+    #footer{
+        margin-left: -200px;
+    }
+
+    .liste{
+        display: inline;
+    }
+    a.help:active{
+        text-decoration: underline;
+    }
+
+    .a-propos{
+        margin-left: 20px;
+    }
+
+
+}*/ 
+
+
+
+
+/******Iphone 8******/
+@media  screen and (min-width: 375px) and (max-width:767px){
+
+    #root{
+        flex-wrap: wrap; 
+    }
+    /******header******/
+    #header-nav{
+        width: 100%;
+        display: block;
+        height: 100px;
+        margin-left: -530px;
+    }
+
+    header a {
+        font-size: 1.3em;
+        display: block;
+    }
+    
+    .logo{
+        padding-top: 15px;
+    }
+
+    .signin{
+        position: absolute;
+        margin-left: 120px;
+        padding: auto;
+        height: auto;
+        
+    }
+
+    a#survol{
+        margin-left: -130px;
+        width: 190px;
+        font-size: 18px;
+        color: #0065fc;
+        border-bottom: 2px solid #0065fc;
+        border-top: none !important;
+    }
+
+    a.survol{
+        margin: auto;
+        width: 190px;
+        font-size: 18px;
+        border-top: none !important;
+    }
+
+    .navigator{
+        margin-top: 45px;
+        border-bottom: 2px solid #e6e2e7;
+        text-align: center;
+    }
+    /******header******/
+
+
+    /******header-info******/
+    #header-info{
+        flex-direction: column;
+        height: auto;
+    }
+
+    h1{
+        margin-left: -250px;
+    }
+    h4{
+        margin-left: -250px; 
+    }
+    span{
+        display: block;
+    }
+
+    .submit{
+        display: none;
+    }
+    .barre{
+        margin-left: -250px;
+    }   
+
+    .fa-search{
+        visibility: visible !important;
+        color: #f2f2f2;
+        background-color: #0065FC;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px ;
+        padding: 10px;
+        padding-top: 12px;
+        cursor: pointer;
+    }
+    #search{
+        width: 50%;
+        height: 42px;
+    }
+
+    ::placeholder{
+        font-size: 20px;
+    }
+
+    .titre-filtre{
+        margin-left: 15px;
+    }   
+
+    .filtre{
+        margin-left: -250px;
+        margin-bottom: 10px;
+        width: 50px;
+    }
+
+    .info{
+        margin-left: -250px;
+        margin-bottom: 10px;
+    }
+    /******header-info******/
+
+    #hosting-container{
+        flex-direction: column-reverse;
+    }
+
+    /******aside*****/
+    aside#populaires{
+        width: 290px;
+        padding-left: 10px;
+        margin-left: 40px;
+        margin-top: 20px;
+        border-radius: 0px;
+    }
+    .matin-img{
+        height: 100px;
+    }
+
+    .matin-image{
+        height: 100px;
+    }
+
+    .name{
+        padding: 10px;
+        padding-bottom: 0px;
+    }
+
+    .prix-populaires-1{
+        padding: 10px;
+        padding-bottom: 20px;
+    }
+
+    .star-1{
+        display: inline;
+        margin-left: 20px;
+        padding-top: 20px;
+    }
+
+    a .eau-img{
+        height: 100px;
+        width: 275px;
+    }
+
+    .eau-image{
+        height: 100px;
+    }
+
+    .name_1{
+        padding: 10px;
+        padding-bottom: 0px;
+    }
+
+    .prix-populaires-2{
+        padding: 10px;
+        padding-bottom: 10px;
+    }
+
+    .star-2{
+        display: inline;
+        margin-left: 20px;
+        padding-top: 0px;
+    }
+
+    a .blanc-img{
+        height: 100px;
+
+    }
+    .blanc-image{
+        height: 100px; 
+    }
+
+    .prix-populaires-3{
+        padding: 10px;
+        padding-bottom: 20px;
+    }
+
+    .star-3{
+        display: inline;
+        margin-left: 20px;
+        padding-top: 0px;
+    }
+    /******aside*****/
+
+    /******hosting*****/
+    section#hosting{
+        flex-direction: column;
+        /*margin-right: -500px;*/
+        background-color: white;
+    }
+
+    .framing{
+        width: auto;
+        margin-left: 25px;
+    }
+
+    a .cannebiere-img{
+        width: 250px;
+    }
+
+    .first_line{
+        flex-direction: column;
+    }
+
+    a .mer-img{
+        width: 250px;
+    }
+    
+    .second_line{
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+
+    .star{
+        width: 100px;
+    }
+    /******hosting*****/
+    
+    /******activities*****/
+
+    .media-1{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .media-2{
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-top: 740px;
+        margin-left: -265px;
+    }
+
+    .fourth_line{
+        height: 350px;
+        margin-top: 20px;
+        margin-left: -5px;
+    
+    }
+
+    .sixth_line{
+        height: 350px;
+        margin-top: 20px;
+        margin-left: 5px;
+    
+    }
+
+    section#activities-container{
+        margin-left: -550px;
+    }
+
+    /******activities*****/
+
+    /******footer*****/
+    #footer{
+        margin-left: -595px;
+    }
+    .footer-box{
+        flex-direction: column;
+    }
+    h4.title_footer{
+        display: block;
+        margin-left: 0px;
+    }
+    /******footer*****/
+}
