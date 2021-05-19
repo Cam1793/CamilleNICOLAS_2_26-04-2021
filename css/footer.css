@@ -1,47 +1,39 @@
 #footer{
-    display: flex;
-    justify-content: center;
     background-color: #f2f2f2;
+    display: flex;
+    justify-content: space-around;
     width: 100%;
-    margin: auto;
-    position: relative;
-    margin-left: -20px;
+    line-height: 2.2em;
 }
 
-.framing_footer{
+.footer-box{
     display: flex;
-    align-content: space-between;
-    width: auto;
+    justify-content: space-evenly;
+    width: 100%;
 }
 
-.liste{
+.a-propos{
     display: flex;
-    position: relative;
     flex-direction: column;
-    list-style-type: none;
-    margin-right: 150px;
 }
 
-.name-footer{
-    margin-right: -50px;
- }
-    
-.name-footer-1{
-    margin-right: -100px;
+.nos-hebergements{
+    display: flex;
+    flex-direction: column;
 }
 
-.title_footer{
-    font-weight: bold;
+.assistance{
+    display: flex;
+    flex-direction: column;
 }
 
 li{
-    padding: 3px;
+    font-size: 17px;
 }
 
-h4{
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-size: 15px; 
+ul{
+    list-style-type: none;
+    min-width: 280px;
 }
 
 a{
@@ -51,16 +43,14 @@ a{
     color: black;
 }
 
+.help{
+    font-size: 14px;
+    font-weight: normal;
+    width: 100%;
+}
+
+/*a hover*/
 a.help:hover{
     text-decoration: underline;
 }
-
-.help{
-    display: inline;
-    position: relative;
-    font-size: 13px;
-    font-weight: normal;
-}
-
-
-
+/*a hover*/

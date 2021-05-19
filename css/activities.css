@@ -1,33 +1,30 @@
-.activities{
-    width: auto;
-    height: auto;
+#activities-container{
+    padding: 0em 3em 0em 3em;
     display: flex;
-    justify-content: center;
-    margin-bottom: 20px; 
+    flex-direction: column;
+    margin-bottom: 7em;
 }
 
-/*titre activité*/
+.activities{
+    height: 440px;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: space-between;
+}
+
+/*titres activités*/
 .nom{
     font-weight: bold;
-    font-size: 12px;
-    width: auto;
-    height: auto;
+    font-size: 16px;
+    color: rgba(56, 53, 53, 0.726);
+    margin: 8px 0px 8px 8px;
 }
-
-.nom_1{
-    margin-top: -10px;
-    padding-bottom: 8px;
-}
-.name_activities{
-    font-weight: bold;
-    position: relative;
-    font-size: 20px;
-}
-/*titre activité*/
-
+/*titres activités*/
 
 /*a hover*/
-
 a{
     text-decoration: none;
     font-weight: bolder;
@@ -35,173 +32,129 @@ a{
     color: black;
     
 }
-a .vieuxportimg:hover{
+
+a .vieux-port-img:hover{
     transform: scale(1.03);
     transition: transform 100ms ease-in-out;
 }
 
-a .pomeguèsimg:hover{
+a .pomeguès-img:hover{
     transform: scale(1.03);
     transition: transform 100ms ease-in-out;
 }
 
-a .frioulimg:hover{
+a .frioul-img:hover{
     transform: scale(1.03);
     transition: transform 100ms ease-in-out;
 }
 
-a .calanquesimg:hover{
+a .calanques-img:hover{
     transform: scale(1.03);
     transition: transform 100ms ease-in-out;
 }
 
-a .gardesimg:hover{
+a .gardes-img:hover{
     transform: scale(1.03);
     transition: transform 100ms ease-in-out;
 }
 
-a .longchampsimg:hover{
+a .longchamps-img:hover{
     transform: scale(1.03);
     transition: transform 100ms ease-in-out;
 }
 /*a hover*/
 
-.cards_activities{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 60px;
-    margin-left: -190px;
-}
-
-.third_line{
-    margin: auto;
-    width: auto;
-    display: flex;
-}
-
-.fourth_line{
-    margin: auto;
-    width: auto;
-    display: flex;
-}
-
 /*vieux port*/
-.vieuxportimg{
-    width: 220px;
-    height: 340px;
-    border-radius: 10px;
-    box-shadow: 4px 4px 50px gainsboro;
-    margin: auto;
-    margin-right: 10px;
+.vieux-port-img{
+    width: 21.3vw;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0 0 16px #0000002e;
 }
-.vieuxportimage{
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
-    height: 310px;
-    width: 220px;
+.vieux-port-image{
+    width: 100%;
+    height: 400px;
+    border-radius: 15px 15px 0px 0px;
+    object-fit: cover;
 }
 /*vieux port*/
 
 /*pomegues*/
-.pomeguèsimg{
-    border-radius: 10px;
-    width: auto;
-    box-shadow: 4px 4px 50px gainsboro;
-    height: 182px;
-    margin: auto;
-    margin-top: 0px;
-    margin-left: 20px;
-    margin-right: 20px;
+.pomeguès-img{
+    width: 18vw;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0 0 16px #0000002e;
 }
 
-.pomeguèsimage{
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
-    width: 220px;
+.pomeguès-image{
+    width: 100%;
+    height: 190px;
+    border-radius: 15px 15px 0px 0px;
+    object-fit: cover;
 }
 /*pomegues*/
 
 /*frioul*/
-.frioulimg{
-    border-radius: 10px;
-    width: auto;
-    box-shadow: 4px 4px 50px gainsboro;
-    height: 150px;
-    margin: auto;
-    margin-bottom: 0px;
-    margin-left: -240px;
+.frioul-img{
+    width: 18vw;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0 0 16px #0000002e;
 }
 
-.frioulimage{
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
-    width: 223px;
+.frioul-image{
+    width: 100%;
+    height: 150px;
+    border-radius: 15px 15px 0px 0px;
+    object-fit: cover;
 }
 /*frioul*/
 
 /*calanques*/
-.calanquesimg{
-    border-radius: 10px;
-    width: auto;
-    height: 340px;
-    box-shadow: 4px 4px 50px gainsboro;
-    margin: auto;
-    margin-right: 10px;
+.calanques-img{
+    width: 21.3vw;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0 0 16px #0000002e;
 }
 
-.calanquesimage{
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
-    width: 220px;
-    height: 310px;
+.calanques-image{
+    width: 100%;
+    height: 400px;
+    border-radius: 15px 15px 0px 0px;
+    object-fit: cover;
 }
 /*calanques*/
 
 /*gardes*/
-.gardesimg{
-    border-radius: 10px;
-    width: auto;
-    height: 165px;
-    box-shadow: 4px 4px 50px gainsboro;
-    margin-top: 0px;
-    margin-left: 20px;
+.gardes-img{
+    width: 18vw;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0 0 16px #0000002e;  
 }
 
-.gardesimage{
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
-    width: 220px;
-    height: 130px;
+.gardes-image{
+    width: 100%;
+    height: 150px;
+    border-radius: 15px 15px 0px 0px;
+    object-fit: cover;
 }
 /*gardes*/
 
 /*longchamps*/
-.longchampsimg{
-    border-radius: 10px;
-    width: auto;
-    height: auto;
-    box-shadow: 4px 4px 50px gainsboro;
-    margin: auto;
-    margin-bottom: 0px;
-    margin-left: -257px;
+.longchamps-img{
+    width: 18vw;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0 0 16px #0000002e;
 }
 
-.longchampsimage{
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
-    width: 220px;
-    height: 130px;
+.longchamps-image{
+    width: 100%;
+    height: 190px;
+    border-radius: 15px 15px 0px 0px;
+    object-fit: cover;
 }
 /*longchamps*/
