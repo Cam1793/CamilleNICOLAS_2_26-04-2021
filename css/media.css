@@ -61,7 +61,7 @@
 /******Laptop 1204px*****/
 
 /******Ipad******/
-@media  screen and (min-width: 768px) and (max-width: 991px){
+@media  screen and (max-width: 991px){
 
     /*header*/
     nav{
@@ -114,7 +114,7 @@
     }
 
     .blanc-image{
-        width: 50%
+        width: 50%;
     }
     /*aside*/
 
@@ -201,6 +201,7 @@
     /*activities*/
     #activities-container{
         padding: 0em 2em 0em 2em;
+        margin-bottom: 65em;
     }
 
     .activities{
@@ -272,12 +273,229 @@
         height: 90%;  
     }
     /*activities*/
+
+    /*footer*/
+    .footer-box{
+        flex-direction: column;
+    }
+    /*footer*/
+
+
 } 
 /******Ipad******/
 
 
 /******Iphone 8******/
-/*@media  screen and (min-width: 375px) and (max-width:767px){
+@media screen and (max-width: 767px){
 
-    
-}*/
+    /*header*/
+    header{
+        padding: 0vw 0vw 0vw 1vw;
+    }
+
+    .logo{
+        height: 0;
+        padding: 0.5em 1.5em 0em 1.5em;
+        width: 0;
+    }
+
+    nav{
+        width: 100%;
+        display: flex;
+    }
+
+    .nav-hosting{
+        width: 100%;
+        color: black;
+        border-bottom: 3px solid #f2f2f2;
+        padding-top: 2.7em;
+        padding-bottom: 0.5em;
+        margin-left: -3em;
+        display: flex;
+        justify-content: center;
+    }
+
+    .nav-activities{
+        width: 100%;
+        color: black;
+        border-bottom: 3px solid #f2f2f2;
+        padding-top: 2.7em;
+        padding-bottom: 0.5em;
+        display: flex;
+        justify-content: center;
+    }
+
+    nav a:active{
+        color: #0065FC;
+        border-bottom: 3px solid #0065FC;
+    }
+
+    .signin{
+        position: absolute;
+        right: 25px;
+    }
+    /*header*/
+
+    /*header-info*/
+    h1{
+        margin-top: 2em;
+    }
+    .submit{
+        display: none;
+    }
+
+    .fa-search{
+        visibility: visible;
+        width: 5vw;
+        text-align: center;
+        color: #f2f2f2;
+        background-color: #0065FC;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        padding: 10px;
+        padding-top: 15px;
+        cursor: pointer;
+    }
+
+    #search{
+        width: 60%;
+    }
+
+    .title-filter{
+        margin-right: 7em; 
+        margin-bottom: 1em;
+    }
+
+    .texte-info{
+        font-size: 1.1em;
+    }
+
+    .title-filters:active{
+        background-color: #deebff;
+    }
+    /*header-info*/
+
+    /*aside*/
+    aside{
+        border-radius: 0px;
+    }
+    .aside_text{
+        padding-left: 20px;
+    }
+
+    .matin-img{
+        width: 100%;
+        height: 150px;
+    }
+
+    .matin-image{
+        width: 55%;
+    }
+
+    .eau-img{
+        width: 100%;
+        height: 150px;
+    }
+
+    .eau-image{
+        width: 47%
+    }
+
+    .blanc-img{
+        width: 90vw;
+        height: 150px; 
+    }
+
+    .blanc-image{
+        width: 55%;
+    }
+    /*aside*/
+
+    /*hosting*/
+    h3{
+        font-size: 1.1em;
+    }
+
+    .prix{
+        font-size: 15px;
+    }
+
+    .star{
+        font-size: 1em;
+    }
+    .framing{
+        padding-left: 8px;
+    }
+    .cannebiere-img{
+        width: 85vw;
+    }
+
+    .port-img{
+        width: 85vw;
+    }
+
+    .mouettes-img{
+        width: 85vw;
+    }
+
+    .mer-img{
+        width: 85vw;
+    }
+
+    .panier-img{
+        width: 85vw;
+    }
+
+    .amina-img{
+        width: 85vw;
+    }
+    /*hosting*/
+
+    /*activities*/
+    #activities-container{
+        height: 90em;
+    }
+
+    .vieux-port-img{
+        width: 85vw;
+        height: 300px;
+    }
+
+    .pomeguès-img{
+        width: 85vw;
+        height: 300px;
+        margin-top: 25px;
+    }
+
+    .frioul-img{
+        width: 85vw;
+        height: 300px;
+        margin-top: 25px;
+    }
+
+    .calanques-img{
+        width: 85vw;
+        height: 300px;
+        margin-top: 25px;
+    }
+
+    .gardes-img{
+        width: 85vw;
+        height: 300px;
+        margin-top: 25px;
+    }
+
+    .longchamps-img{
+        width: 85vw;
+        height: 300px;
+        margin-top: 25px;
+    }
+    /*activities*/
+
+    /*footer*/
+    .footer-box{
+        flex-direction: column;
+    }
+    /*footer*/
+}
+/******Iphone 8******/
