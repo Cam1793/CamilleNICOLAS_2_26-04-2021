@@ -48,7 +48,6 @@ a{
     font-weight: normal;
     width: 100%;
 }
-
 /*a hover*/
 a.help:hover{
     text-decoration: underline;

@@ -6,7 +6,7 @@
 }
 
 .activities{
-    height: 440px;
+    max-height: 440px;
     border-radius: 15px;
     display: flex;
     flex-wrap: wrap;
@@ -29,8 +29,7 @@ a{
     text-decoration: none;
     font-weight: bolder;
     font-size: 15px;
-    color: black;
-    
+    color: black; 
 }
 
 a .vieux-port-img:hover{
@@ -101,6 +100,7 @@ a .longchamps-img:hover{
     border-radius: 15px;
     background-color: #fff;
     box-shadow: 0 0 16px #0000002e;
+    margin-top: 20px;
 }
 
 .frioul-image{
@@ -149,6 +149,7 @@ a .longchamps-img:hover{
     border-radius: 15px;
     background-color: #fff;
     box-shadow: 0 0 16px #0000002e;
+    margin-top: 20px;
 }
 
 .longchamps-image{
