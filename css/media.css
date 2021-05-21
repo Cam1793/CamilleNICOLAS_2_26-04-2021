@@ -1,0 +1,502 @@
+/*******Media Queries*********/
+
+/******Laptop 1204px*****/
+@media screen and (min-width : 992px) and (max-width: 1204px){
+
+    /*hosting*/
+    #hosting{
+        width: 70%;
+    }
+
+    .cannebiere-img{
+        height: 200px;
+        width: 17vw;
+    }
+
+    .port-img{
+        height: 200px;
+        width: 17vw; 
+    }
+
+    .mouettes-img{
+        height: 200px;
+        width: 17vw;
+    }
+
+    .mer-img{
+        height: 200px;
+        width: 17vw;
+    }
+
+    .mer-image{
+        height: 70%;
+    }
+
+    .panier-img{
+        height: 200px;
+        width: 17vw;
+    }
+
+    .amina-img{
+        height: 200px;
+        width: 17vw;
+    }
+
+    .amina-image{
+        height: 70%;
+    }
+
+    .nom{
+        font-size: 13px;
+    }
+    /*hosting*/
+
+    /*aside*/
+    aside{
+        width: 30%;
+    }
+    /*aside*/
+    
+}
+/******Laptop 1204px*****/
+
+/******Ipad******/
+@media  screen and (max-width: 991px){
+
+    /*header*/
+    nav{
+        width: 45%;
+    }
+    /*header*/
+
+    /*main*/
+    main{
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-bottom: 0;
+    }  
+    /*main*/ 
+
+    /*aside*/
+    aside{
+        width: 100%;
+        margin: 0;
+    }
+
+    .trend-hosting{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .aside_text{
+        padding-left: 30px;
+    }
+
+    .matin-img{
+        height: 200px;
+    }
+
+    .matin-image{
+        width: 50%;
+    }
+
+    .eau-img{
+        height: 200px; 
+    }
+
+    .eau-image{
+        width: 50%;
+    }
+
+    .blanc-img{
+        height: 200px; 
+    }
+
+    .blanc-image{
+        width: 50%;
+    }
+    /*aside*/
+
+    /*hoting*/
+    #hosting{
+        width: 100%;
+        flex-wrap: wrap;
+        background-color: white;
+    }
+
+    .framing{
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .cannebiere-img{
+        width: 40vw;
+        height: 250px;
+    }
+
+    .cannebiere-image{
+        height: 70%;
+    }
+
+    .port-img{
+        width: 40vw;
+        height: 250px;
+    }
+
+    .port-image{
+        height: 70%;
+    }
+
+    .mouettes-img{
+        width: 40vw;
+        height: 250px;
+    }
+
+    .mouettes-image{
+        height: 70%;
+    }
+
+    .mer-img{
+        width: 40vw;
+        height: 250px;
+    }
+
+    .mer-image{
+        height: 70%;
+    }
+
+    .panier-img{
+        width: 40vw;
+        height: 250px; 
+    }
+
+    .panier-image{
+        height: 70%;
+    }
+
+    .amina-img{
+        width: 40vw;
+        height: 250px;
+    }
+
+    .amina-image{
+        height: 70%;
+    }
+
+    h3{
+        font-size: 1.3em;
+    }
+
+    .prix{
+        font-size: 16px;
+    }
+
+    .star{
+        margin: 0.3em 0em 0em 1em;
+        font-size: 1.2em;
+    }
+    /*hoting*/
+
+    /*activities*/
+    #activities-container{
+        padding: 0em 2em 0em 2em;
+        margin-bottom: 65em;
+    }
+
+    .activities{
+        height: 100%;
+        flex-direction: initial;
+        justify-content: space-around;
+    }
+
+    .nom{
+        font-size: 14px;
+        margin: 0;
+    }
+
+    .vieux-port-img{
+        width: 40vw;
+        height: 400px;
+    }
+
+    .vieux-port-image{
+        height: 90%;
+    }
+
+    .pomeguès-img{
+        width: 40vw;
+        height: 400px;
+    }
+    
+    .pomeguès-image{
+        height: 90%;
+    }
+
+    .frioul-img{
+        width: 40vw;
+        height: 400px;
+        margin-top: 25px;
+    }
+
+    .frioul-image{
+        height: 90%;
+    }
+
+    .calanques-img{
+        width: 40vw;
+        height: 400px;
+        margin-top: 25px;
+    }
+
+    .calanques-image{
+        height: 90%;  
+    }
+
+    .gardes-img{
+        width: 40vw;
+        height: 400px;
+        margin-top: 25px;
+    }
+
+    .gardes-image{
+        height: 90%;  
+    }
+
+    .longchamps-img{
+        width: 40vw;
+        height: 400px;
+        margin-top: 25px;
+    }
+
+    .longchamps-image{
+        height: 90%;  
+    }
+    /*activities*/
+
+    /*footer*/
+    .footer-box{
+        flex-direction: column;
+    }
+    /*footer*/
+
+
+} 
+/******Ipad******/
+
+
+/******Iphone 8******/
+@media screen and (max-width: 767px){
+
+    /*header*/
+    header{
+        padding: 0vw 0vw 0vw 1vw;
+    }
+
+    .logo{
+        height: 0;
+        padding: 0.5em 1.5em 0em 1.5em;
+        width: 0;
+    }
+
+    nav{
+        width: 100%;
+        display: flex;
+    }
+
+    .nav-hosting{
+        width: 100%;
+        color: black;
+        border-bottom: 3px solid #f2f2f2;
+        padding-top: 2.7em;
+        padding-bottom: 0.5em;
+        margin-left: -3em;
+        display: flex;
+        justify-content: center;
+    }
+
+    .nav-activities{
+        width: 100%;
+        color: black;
+        border-bottom: 3px solid #f2f2f2;
+        padding-top: 2.7em;
+        padding-bottom: 0.5em;
+        display: flex;
+        justify-content: center;
+    }
+
+    nav a:active{
+        color: #0065FC;
+        border-bottom: 3px solid #0065FC;
+    }
+
+    .signin{
+        position: absolute;
+        right: 25px;
+    }
+    /*header*/
+
+    /*header-info*/
+    h1{
+        margin-top: 2em;
+    }
+
+    .submit{
+        display: none;
+    }
+
+    .fa-search{
+        visibility: visible;
+        width: 6vw;
+        text-align: center;
+        color: #f2f2f2;
+        background-color: #0065FC;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        padding: 15px;
+        padding-top: 15px;
+        cursor: pointer;
+    }
+
+    #search{
+        width: 60%;
+    }
+
+    .title-filter{
+        margin-right: 7em; 
+        margin-bottom: 1em;
+    }
+
+    .texte-info{
+        font-size: 1.1em;
+    }
+
+    .title-filters:active{
+        background-color: #deebff;
+    }
+    /*header-info*/
+
+    /*aside*/
+    aside{
+        border-radius: 0px;
+    }
+    .aside_text{
+        padding-left: 20px;
+    }
+
+    .matin-img{
+        width: 100%;
+        height: 150px;
+    }
+
+    .matin-image{
+        width: 55%;
+    }
+
+    .eau-img{
+        width: 100%;
+        height: 150px;
+    }
+
+    .eau-image{
+        width: 47%;
+    }
+
+    .blanc-img{
+        width: 90vw;
+        height: 150px; 
+    }
+
+    .blanc-image{
+        width: 55%;
+    }
+    /*aside*/
+
+    /*hosting*/
+    h3{
+        font-size: 1.1em;
+    }
+
+    .prix{
+        font-size: 15px;
+    }
+
+    .star{
+        font-size: 1em;
+    }
+    .framing{
+        padding-left: 8px;
+    }
+    .cannebiere-img{
+        width: 85vw;
+    }
+
+    .port-img{
+        width: 85vw;
+    }
+
+    .mouettes-img{
+        width: 85vw;
+    }
+
+    .mer-img{
+        width: 85vw;
+    }
+
+    .panier-img{
+        width: 85vw;
+    }
+
+    .amina-img{
+        width: 85vw;
+    }
+    /*hosting*/
+
+    /*activities*/
+    #activities-container{
+        height: 90em;
+    }
+
+    .vieux-port-img{
+        width: 85vw;
+        height: 300px;
+    }
+
+    .pomeguès-img{
+        width: 85vw;
+        height: 300px;
+        margin-top: 25px;
+    }
+
+    .frioul-img{
+        width: 85vw;
+        height: 300px;
+        margin-top: 25px;
+    }
+
+    .calanques-img{
+        width: 85vw;
+        height: 300px;
+        margin-top: 25px;
+    }
+
+    .gardes-img{
+        width: 85vw;
+        height: 300px;
+        margin-top: 25px;
+    }
+
+    .longchamps-img{
+        width: 85vw;
+        height: 300px;
+        margin-top: 25px;
+    }
+    /*activities*/
+
+    /*footer*/
+    .footer-box{
+        flex-direction: column;
+    }
+    /*footer*/
+}
+/******Iphone 8******/

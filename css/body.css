@@ -1,0 +1,17 @@
+body{
+    font-family: "Raleway", sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0px;
+
+}
+
+main{
+    padding: 0vw 2vw 0vw 2vw;
+    margin-top: 3em;
+    display: flex;
+    margin-bottom: 3em;
+    justify-content: space-around;
+}
+
+

@@ -1,0 +1,224 @@
+#hosting{
+    width: 60%;
+    padding: 20px;
+    border-radius: 1.5em;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 1.6em;
+}
+
+.framing{
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/*a hover*/
+
+a .cannebiere-img:hover{
+    transform: scale(1.03);
+    transition: transform 100ms ease-in-out;
+}
+
+a .mer-img:hover{
+    transform: scale(1.03);
+    transition: transform 100ms ease-in-out;
+}
+
+a .port-img:hover{
+    transform: scale(1.03);
+    transition: transform 100ms ease-in-out;
+}
+
+a .panier-img:hover{
+    transform: scale(1.03);
+    transition: transform 100ms ease-in-out;
+}
+
+a .mouettes-img:hover{
+    transform: scale(1.03);
+    transition: transform 100ms ease-in-out;
+}
+
+a .amina-img:hover{
+    transform: scale(1.03);
+    transition: transform 100ms ease-in-out;
+}
+/*a hover*/
+
+/*Hôtel la cannebière*/
+.cannebiere-img{
+    width: 14.2vw;
+    min-width: 150px;
+    height: 230px;
+    background-color: white;
+    border: 5px solid white;
+    border-radius: 15px;
+    margin: 0em 1em 3em 0em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 0 16px #0000002e;  
+}
+
+.cannebiere-image{
+    width: 100%;
+    height: 75%;
+    border-radius: 15px 15px 0px 0px;
+    object-fit: cover;
+}
+/*Hôtel la cannebière*/
+
+/*Hôtel du port*/
+.port-img{
+    width: 14.2vw;
+    min-width: 150px;
+    height: 230px;
+    background-color: white;
+    border: 5px solid white;
+    border-radius: 15px;
+    margin: 0em 1em 3em 0em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 0 16px #0000002e;  
+}
+
+.port-image{
+    width: 100%;
+    height: 75%;
+    border-radius: 15px 15px 0px 0px;
+    object-fit: cover;
+}
+/*Hôtel du port*/
+
+/*Hôtel Les mouettes*/
+.mouettes-img{
+    width: 15vw;
+    min-width: 150px;
+    height: 230px;
+    background-color: white;
+    border: 5px solid white;
+    border-radius: 15px;
+    margin: 0em 1em 3em 0em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 0 16px #0000002e;     
+}
+
+.mouettes-image{
+    width: 100%;
+    height: 75%;
+    border-radius: 15px 15px 0px 0px;
+    object-fit: cover;
+}
+/*Hôtel Les mouettes*/
+
+/*Auberge de la mer*/
+.mer-img{
+    width: 14.2vw;
+    min-width: 150px;
+    height: 230px;
+    background-color: white;
+    border: 5px solid white;
+    border-radius: 15px;
+    margin: 0em 1em 3em 0em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 0 16px #0000002e;  
+}
+
+.mer-image{
+    width: 100%;
+    height: 75%;
+    border-radius: 15px 15px 0px 0px;
+    object-fit: cover;
+}
+/*Auberge de la mer*/
+
+/*Auberge Le Panier*/
+.panier-img{
+    width: 14.2vw;
+    min-width: 150px;
+    height: 230px;
+    background-color: white;
+    border: 5px solid white;
+    border-radius: 15px;
+    margin: 0em 1em 3em 0em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 0 16px #0000002e;
+}
+
+.panier-image{
+    width: 100%;
+    height: 75%;
+    border-radius: 15px 15px 0px 0px;
+    object-fit: cover;
+}
+/*Auberge Le Panier*/
+
+/*Hôtel chez Amina*/
+.amina-img{
+    width: 14.2vw;
+    min-width: 150px;
+    height: 230px;
+    background-color: white;
+    border: 5px solid white;
+    border-radius: 15px;
+    margin: 0em 1em 3em 0em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 0 16px #0000002e;  
+}
+
+.amina-image{
+    width: 100%;
+    height: 75%;
+    border-radius: 15px 15px 0px 0px;
+    object-fit: cover;
+}
+/*Hôtel chez Amina*/
+
+.more{
+    font-size: 1.5em;
+}
+
+h3{
+    font-weight: bold;
+    font-size: 0.9em;
+    margin: 0.3em 0em 0em 1em; 
+}
+
+.prix{
+    font-weight: normal;
+    font-size: 12px;
+    margin: 0.3em 0em 0em 1em;
+}
+
+.fa-star{
+    padding: 0.09em;
+}
+
+.star{
+    display: flex;
+    align-items: baseline;
+    color: #0065fc;
+    font-size: 1em;
+    margin: 0.3em 0em 0em 0.7em;
+}
+
+.star-grey{
+    color: rgba(128, 128, 128, 0.534);
+}

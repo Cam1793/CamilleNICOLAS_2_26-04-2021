@@ -1,0 +1,148 @@
+aside{
+    border-radius: 15px;
+    background-color: #f2f2f2;
+    padding: 2vh 1vw 0vh 1vw;
+    margin-left: 2vw;
+}
+
+#populaires{
+    border-radius: 15px;
+    background-color: #f2f2f2;
+    padding: 0vw 2vw 0vw 2vw;
+}
+
+.titre-populaires{
+    padding: 10px 0px 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titre-pop{
+    width: 320px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icone-populaire{
+    font-weight: bold;
+    font-size: 2em; 
+}
+
+.trend-hosting{
+    width: 100%;
+}
+
+/*a hover*/
+a{
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 15px;
+    color: black;
+}
+
+a .matin-img:hover{
+    transform: scale(1.03);
+    transition: transform 100ms ease-in-out;
+}
+
+a .eau-img:hover{
+    transform: scale(1.03);
+    transition: transform 100ms ease-in-out;
+}
+
+a .blanc-img:hover{
+    transform: scale(1.03);
+    transition: transform 100ms ease-in-out;
+}
+/*a hover*/
+
+/*matin*/
+.matin-img{
+    display: flex;
+    width: 400px;
+    height: 150px;
+    background-color: #fff;
+    border: 5px solid #fff;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 16px #0000002e;
+}
+
+.matin-image{
+    height: 100%;
+    width: 40%;
+    object-fit: cover;
+    border-radius: 11px 0px 0px 11px;
+}
+/*matin*/
+
+
+/*eau*/
+.eau-img{
+    display: flex;
+    width: 400px;
+    height: 150px;
+    background-color: #fff;
+    border: 5px solid #fff;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 16px #0000002e;
+}
+
+.eau-image{
+    height: 100%;
+    width: 40%;
+    object-fit: cover;
+    border-radius: 11px 0px 0px 11px;
+}
+/*eau*/
+
+/*blanc*/
+.blanc-img{
+    display: flex;
+    width: 400px;
+    height: 150px;
+    background-color: #fff;
+    border: 5px solid #fff;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 16px #0000002e;
+}
+
+.blanc-image{
+    height: 100%;
+    width: 40%;
+    min-width: 40%;
+    object-fit: cover;
+    border-radius: 11px 0px 0px 11px;
+}
+/*blanc*/
+
+.aside_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.name{
+    font-size: 1em
+}
+
+.prix-populaires{
+    font-size: 1em;
+    font-weight: normal;
+    margin: 0;
+}
+
+.star-pop{
+    color: #0065fc;
+    line-height: 1.5em; 
+    font-size: 1em;
+}
+
+.star-grey{
+    color: rgba(128, 128, 128, 0.534);
+}
