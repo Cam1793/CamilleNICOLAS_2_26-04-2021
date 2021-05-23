@@ -67,6 +67,30 @@
     nav{
         width: 45%;
     }
+
+    .title-filter{
+        margin-right: 0.7em; 
+    }
+
+    .filtres{
+        margin-left: 0;
+    }
+
+    .economique{
+        margin-right: 0.8em;
+    }
+
+    .familial{
+        margin-right: 0.8em;
+    }
+
+    .romantique{
+        margin-right: 0.8em;
+    }
+
+    .animaux{
+        margin-right: 0;
+    }
     /*header*/
 
     /*main*/
@@ -362,11 +386,6 @@
         width: 60%;
     }
 
-    .title-filter{
-        margin-right: 7em; 
-        margin-bottom: 1em;
-    }
-
     .texte-info{
         font-size: 1.1em;
     }
@@ -380,6 +399,7 @@
     aside{
         border-radius: 0px;
     }
+
     .aside_text{
         padding-left: 20px;
     }
