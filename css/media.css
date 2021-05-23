@@ -122,7 +122,7 @@
     }
 
     .matin-image{
-        width: 50%;
+        width: 54%;
     }
 
     .eau-img{
@@ -138,7 +138,7 @@
     }
 
     .blanc-image{
-        width: 50%;
+        width: 54%;
     }
     /*aside*/
 
@@ -308,7 +308,6 @@
 
 
 /******Iphone 8******/
-@media screen and (max-width: 767px){
 
     /*header*/
     header{
@@ -403,30 +402,30 @@
     }
 
     .matin-img{
-        width: 100%;
-        height: 150px; 
+        max-width: 90vw;
+        max-height: 150px; 
     }
 
     .matin-image{
-        width: 55%;
+        max-width: 52%;
     }
 
     .eau-img{
-        width: 100%;
-        height: 150px;
+        max-width: 90vw;
+        max-height: 150px;
     }
 
     .eau-image{
-        width: 47%;
+        max-width: 47%;
     }
 
     .blanc-img{
-        width: 90vw;
-        height: 150px; 
+        max-width: 90vw;
+        max-height: 150px; 
     }
 
     .blanc-image{
-        width: 55%;
+        max-width: 55%;
     }
     /*aside*/
 
