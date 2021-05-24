@@ -55,8 +55,19 @@
     aside{
         width: 30%;
     }
-    /*aside*/
     
+    .matin-image{
+        width: 50%;
+    }
+
+    .eau-image{
+        width: 42%;
+    }
+
+    .blanc-image{
+        width: 52%;
+    }
+    /*aside*/  
 }
 /******Laptop 1204px*****/
 
