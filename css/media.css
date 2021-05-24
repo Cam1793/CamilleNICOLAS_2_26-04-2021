@@ -3,47 +3,46 @@
 /******Laptop 1204px*****/
 @media screen and (min-width : 992px) and (max-width: 1204px){
 
-    /*hosting*/
-    #hosting{
-        width: 70%;
+    /*nav*/
+    nav{
+        width: 40%;
+    }
+
+   /*hosting*/
+    main{
+        margin: 1em 1em 1em 1em;
+        display: flex;
+        flex-direction: row;
     }
 
     .cannebiere-img{
-        height: 200px;
-        width: 17vw;
+        height: 230px;
+        width: 25vw;
     }
 
     .port-img{
-        height: 200px;
-        width: 17vw; 
+        height: 230px;
+        width: 25vw; 
     }
 
     .mouettes-img{
-        height: 200px;
-        width: 17vw;
+        height: 230px;
+        width: 25vw;
     }
 
     .mer-img{
-        height: 200px;
-        width: 17vw;
-    }
-
-    .mer-image{
-        height: 70%;
+        height: 230px;
+        width: 25vw;
     }
 
     .panier-img{
-        height: 200px;
-        width: 17vw;
+        height: 230px;
+        width: 25vw;
     }
 
     .amina-img{
-        height: 200px;
-        width: 17vw;
-    }
-
-    .amina-image{
-        height: 70%;
+        height: 230px;
+        width: 25vw;
     }
 
     .nom{
@@ -54,20 +53,53 @@
     /*aside*/
     aside{
         width: 30%;
+        height: 50em;
     }
 
     .matin-image{
-        width: 50%;
+        width: 43%;
     }
 
     .eau-image{
-        width: 42%;
+        width: 43%;
     }
 
     .blanc-image{
         width: 52%;
     }
     /*aside*/  
+
+    /*activities*/
+    #activities-container{
+        padding: 0em 1em 0em 1em
+    }
+
+    .vieux-port-img{
+        width: 25vw;
+    }
+
+    .pomeguès-img{
+        width: 20vw;
+    }
+
+    .frioul-img{
+        width: 20vw;
+        margin-top: 1.8em;
+    }
+
+    .calanques-img{
+        width: 25vw; 
+    }
+
+    .gardes-img{
+        width: 20vw;
+    }
+
+    .longchamps-img{
+        width: 20vw;
+        margin-top: 1.8em;
+    }
+    /*activities*/
 }
 /******Laptop 1204px*****/
 
@@ -113,8 +145,8 @@
     /*main*/ 
 
     /*aside*/
-    aside{
-        width: 100%;
+    #populaires{
+        width: 50em;
         margin: 0;
     }
 
@@ -133,7 +165,7 @@
     }
 
     .matin-image{
-        width: 54%;
+        width: 50%;
     }
 
     .eau-img{
@@ -153,7 +185,7 @@
     }
     /*aside*/
 
-    /*hoting*/
+    /*hosting*/
     #hosting{
         width: 100%;
         flex-wrap: wrap;
@@ -168,6 +200,7 @@
     .cannebiere-img{
         width: 40vw;
         height: 250px;
+        margin-bottom: 2em;
     }
 
     .cannebiere-image{
@@ -177,6 +210,7 @@
     .port-img{
         width: 40vw;
         height: 250px;
+        margin-bottom: 2em;
     }
 
     .port-image{
@@ -186,6 +220,7 @@
     .mouettes-img{
         width: 40vw;
         height: 250px;
+        margin-bottom: 2em;
     }
 
     .mouettes-image{
@@ -195,6 +230,7 @@
     .mer-img{
         width: 40vw;
         height: 250px;
+        margin-bottom: 2em;
     }
 
     .mer-image{
@@ -204,6 +240,7 @@
     .panier-img{
         width: 40vw;
         height: 250px; 
+        margin-bottom: 2em;
     }
 
     .panier-image{
@@ -213,6 +250,7 @@
     .amina-img{
         width: 40vw;
         height: 250px;
+        margin-bottom: 2em;
     }
 
     .amina-image{
@@ -405,8 +443,9 @@
     /*header-info*/
 
     /*aside*/
-    aside{
+    #populaires{
         border-radius: 0px;
+        width: 27em;
     }
 
     .aside_text{
@@ -419,7 +458,7 @@
     }
 
     .matin-image{
-        max-width: 52%;
+        max-width: 47%;
     }
 
     .eau-img{

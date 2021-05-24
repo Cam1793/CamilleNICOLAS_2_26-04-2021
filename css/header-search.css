@@ -92,6 +92,11 @@ h4{
     font-weight: normal;
 }
 
+.filtres{
+    margin: 0;
+    font-size: 1.2em;
+}
+
 
 /*Filtres*/
 .economique{

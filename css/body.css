@@ -7,11 +7,10 @@ body{
 }
 
 main{
-    padding: 0vw 2vw 0vw 2vw;
-    margin-top: 3em;
+    margin: 3em 3em 0em 3em;
     display: flex;
     margin-bottom: 3em;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 
